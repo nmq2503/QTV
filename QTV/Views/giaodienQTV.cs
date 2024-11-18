@@ -13,7 +13,7 @@ namespace QTV
             addUsserControl((UserControl)uc);
 
             // update guna2Button4 text to UserSession.Instance.UserName
-            guna2Button4.Text = "Xin chào, "+UserSession.Instance.UserName + ". Thoát?";
+            guna2Button4.Text = "Xin chào, " + UserSession.Instance.UserName + ". Thoát?";
         }
 
         private void addUsserControl(UserControl userControl)
@@ -93,5 +93,12 @@ namespace QTV
                 login.Show();
             }
         }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            UC_QLMonHoc uc = new UC_QLMonHoc();
+            addUsserControl(((UserControl)uc));
+        }
+
     }
 }

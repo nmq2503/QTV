@@ -122,5 +122,15 @@ namespace QTV.Usercontrol.sinhVien
             // ItemClicked?.Invoke(this, EventArgs.Empty); // Kích hoạt sự kiện khi item được nhấn
             ItemClicked?.Invoke(this, BaiThi);
         }
+
+        private void btnLamBai_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void showExamBox(string ExamID)
+        {
+
+        }
     }
 }

@@ -39,6 +39,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(giaodienQTV));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panelContainer = new Panel();
@@ -50,6 +52,7 @@
             guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             pictureBox1 = new PictureBox();
             guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             guna2ShadowPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -90,7 +93,7 @@
             guna2Button1.HoverState.CustomBorderColor = Color.FromArgb(50, 80, 115);
             guna2Button1.HoverState.FillColor = Color.Transparent;
             guna2Button1.HoverState.ForeColor = Color.FromArgb(50, 80, 115);
-            guna2Button1.Location = new Point(514, 24);
+            guna2Button1.Location = new Point(408, 25);
             guna2Button1.Margin = new Padding(3, 2, 3, 2);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.PressedColor = Color.Transparent;
@@ -122,7 +125,7 @@
             guna2Button3.HoverState.CustomBorderColor = Color.FromArgb(50, 80, 115);
             guna2Button3.HoverState.FillColor = Color.Transparent;
             guna2Button3.HoverState.ForeColor = Color.FromArgb(50, 80, 115);
-            guna2Button3.Location = new Point(987, 24);
+            guna2Button3.Location = new Point(1099, 25);
             guna2Button3.Margin = new Padding(3, 2, 3, 2);
             guna2Button3.Name = "guna2Button3";
             guna2Button3.PressedColor = Color.Transparent;
@@ -157,7 +160,7 @@
             guna2Button2.HoverState.CustomBorderColor = Color.FromArgb(50, 80, 115);
             guna2Button2.HoverState.FillColor = Color.Transparent;
             guna2Button2.HoverState.ForeColor = Color.FromArgb(50, 80, 115);
-            guna2Button2.Location = new Point(754, 24);
+            guna2Button2.Location = new Point(648, 25);
             guna2Button2.Margin = new Padding(3, 2, 3, 2);
             guna2Button2.Name = "guna2Button2";
             guna2Button2.PressedColor = Color.Transparent;
@@ -188,6 +191,7 @@
             // guna2ShadowPanel1
             // 
             guna2ShadowPanel1.BackColor = Color.Transparent;
+            guna2ShadowPanel1.Controls.Add(guna2Button5);
             guna2ShadowPanel1.Controls.Add(guna2Button3);
             guna2ShadowPanel1.Controls.Add(guna2Button1);
             guna2ShadowPanel1.Controls.Add(guna2Button2);
@@ -224,7 +228,7 @@
             guna2Button4.CheckedState.ForeColor = Color.FromArgb(50, 80, 115);
             guna2Button4.CustomBorderColor = Color.Transparent;
             guna2Button4.CustomBorderThickness = new Padding(0, 0, 0, 3);
-            guna2Button4.CustomizableEdges = customizableEdges9;
+            guna2Button4.CustomizableEdges = customizableEdges11;
             guna2Button4.DisabledState.BorderColor = Color.DarkGray;
             guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button4.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -240,11 +244,43 @@
             guna2Button4.Margin = new Padding(3, 2, 3, 2);
             guna2Button4.Name = "guna2Button4";
             guna2Button4.PressedColor = Color.Transparent;
-            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges12;
             guna2Button4.Size = new Size(381, 26);
             guna2Button4.TabIndex = 3;
             guna2Button4.Text = "namebox";
             guna2Button4.Click += guna2Button4_Click;
+            // 
+            // guna2Button5
+            // 
+            guna2Button5.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            guna2Button5.CheckedState.BorderColor = Color.White;
+            guna2Button5.CheckedState.CustomBorderColor = Color.FromArgb(50, 80, 115);
+            guna2Button5.CheckedState.FillColor = Color.White;
+            guna2Button5.CheckedState.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            guna2Button5.CheckedState.ForeColor = Color.FromArgb(50, 80, 115);
+            guna2Button5.CustomBorderColor = Color.White;
+            guna2Button5.CustomBorderThickness = new Padding(0, 0, 0, 3);
+            guna2Button5.CustomizableEdges = customizableEdges9;
+            guna2Button5.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button5.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button5.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button5.FillColor = Color.White;
+            guna2Button5.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            guna2Button5.ForeColor = Color.FromArgb(57, 90, 127);
+            guna2Button5.HoverState.BorderColor = Color.White;
+            guna2Button5.HoverState.CustomBorderColor = Color.FromArgb(50, 80, 115);
+            guna2Button5.HoverState.FillColor = Color.Transparent;
+            guna2Button5.HoverState.ForeColor = Color.FromArgb(50, 80, 115);
+            guna2Button5.Location = new Point(879, 25);
+            guna2Button5.Margin = new Padding(3, 2, 3, 2);
+            guna2Button5.Name = "guna2Button5";
+            guna2Button5.PressedColor = Color.Transparent;
+            guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            guna2Button5.Size = new Size(189, 26);
+            guna2Button5.TabIndex = 3;
+            guna2Button5.Text = "Quản lý môn học";
+            guna2Button5.Click += guna2Button5_Click;
             // 
             // giaodienQTV
             // 
@@ -278,5 +314,6 @@
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
         private PictureBox pictureBox1;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2Button guna2Button5;
     }
 }

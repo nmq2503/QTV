@@ -133,5 +133,35 @@ namespace QTV.Controllers
                 return false;
             }
         }
+
+        public DataTable loadSinhVienInClass(string LopHP)
+        {
+            try
+            {
+                var ado = ADO.Instance;
+                string query = "SELECT * FROM SV_LopHP LEFT JOIN SinhVien ON SV_LopHP.MaSV = SinhVien.MaSV WHERE SV_LopHP.MaLHP = @LopHP";
+                var parameter = ado.CreateParameter("@LopHP", LopHP);
+                return ado.ExecuteQuery(query, parameter);
+            } catch (Exception ex)
+            {
+                Debug.WriteLine(ex);
+                return null;
+            }
+        }
+        
+        public DataTable loadSinhVienNotInClass(string LopHP)
+        {
+            try
+            {
+                var ado = ADO.Instance;
+                string query = "SELECT * FROM SinhVien WHERE MaSV NOT IN (SELECT MaSV FROM SV_LopHP WHERE SV_LopHP.MaLHP = @LopHP)";
+                var parameter = ado.CreateParameter("@LopHP", LopHP);
+                return ado.ExecuteQuery(query, parameter);
+            } catch (Exception ex)
+            {
+                Debug.WriteLine(ex);
+                return null;
+            }
+        }
     }
 }

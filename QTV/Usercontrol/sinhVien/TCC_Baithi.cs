@@ -44,22 +44,10 @@ namespace QuanLyTracNghiem.Thanhcongcu
             loadingBox.Close();
         }
 
-        private void loadListBaiThiSapDienRa()
+        private void loadListBaiThiSapDienRa(string searchString = "")
         {
-            var baiThiSapDienRa = new List<BaiThi>
-        {
-            new BaiThi { TenBaiThi = "Bài thi Toán", TenLopHP = "K71E3", TGBatDau = DateTime.Now.AddHours(2) },
-            new BaiThi { TenBaiThi = "Bài thi Lý", TenLopHP = "K71E3", TGBatDau = DateTime.Now.AddHours(4) },
-            new BaiThi { TenBaiThi = "Bài thi Lý", TenLopHP = "K71E3", TGBatDau = DateTime.Now.AddHours(4) },
-            new BaiThi { TenBaiThi = "Bài thi Lý", TenLopHP = "K71E3", TGBatDau = DateTime.Now.AddHours(4) },
-            new BaiThi { TenBaiThi = "Bài thi Lý", TenLopHP = "K71E3", TGBatDau = DateTime.Now.AddHours(4) },
-            new BaiThi { TenBaiThi = "Bài thi Lý", TenLopHP = "K71E3", TGBatDau = DateTime.Now.AddHours(4) },
-            new BaiThi { TenBaiThi = "Bài thi Lý", TenLopHP = "K71E3", TGBatDau = DateTime.Now.AddHours(4) },
-            new BaiThi { TenBaiThi = "Bài thi Lý", TenLopHP = "K71E3", TGBatDau = DateTime.Now.AddHours(4) },
-            new BaiThi { TenBaiThi = "Bài thi Lý", TenLopHP = "K71E3", TGBatDau = DateTime.Now.AddHours(4) },
-            new BaiThi { TenBaiThi = "Bài thi Lý", TenLopHP = "K71E3", TGBatDau = DateTime.Now.AddHours(4) },
-            new BaiThi { TenBaiThi = "Bài thi Lý", TenLopHP = "K71E3", TGBatDau = DateTime.Now.AddHours(4) },
-        };
+            StudentController studentController = new StudentController();
+            var baiThiSapDienRa = studentController.transformBaiThiSapDienRa(searchString);
 
             foreach (var baiThi in baiThiSapDienRa)
             {
@@ -81,11 +69,16 @@ namespace QuanLyTracNghiem.Thanhcongcu
 
                 ucItem.ItemClicked += (s, baiThi) =>
                 {
-                    MessageBox.Show("Chi tiết Bài Thi: " + baiThi.TenBaiThi);
+                    ShowExamDetails(baiThi);
                 };
 
                 flpBaiThiSapDienRaMain.Controls.Add(ucItem);
             }
+        }
+
+        private void clearListBaiThiSapDienRa()
+        {
+            flpBaiThiSapDienRaMain.Controls.Clear();
         }
 
         private void ItemControl_UserControlClicked(object sender, BaiThi baiThi)
@@ -102,8 +95,10 @@ namespace QuanLyTracNghiem.Thanhcongcu
 
         private void ShowExamDetails(BaiThi baiThi)
         {
-            MessageBox.Show("Chi tiết Bài Thi: " + baiThi.TenBaiThi + "\nLớp: " + baiThi.TenLopHP + "\nThời gian bắt đầu: " + baiThi.TGBatDau);
-            // MessageBox.Show("Chi tiết bài thi!");
+            Baithicuthe baithicuthe = new Baithicuthe();
+            baithicuthe.BaiThi = baiThi;
+            baithicuthe.ShowDialog();
+
         }
 
         private void Test()
@@ -139,11 +134,8 @@ namespace QuanLyTracNghiem.Thanhcongcu
 
         private void loadListBaiThiDaKetThuc()
         {
-            var baiThiDaKetThuc = new List<BaiThi>
-        {
-            new BaiThi { TenBaiThi = "Bài thi Toán", TenLopHP = "K71E3", TGBatDau = DateTime.Now.AddHours(2) },
-            new BaiThi { TenBaiThi = "Bài thi Lý", TenLopHP = "K71E3", TGBatDau = DateTime.Now.AddHours(4) },
-        };
+            StudentController studentController = new StudentController();
+            var baiThiDaKetThuc = studentController.transformBaiThiDaKetThuc();
 
             foreach (var baiThi in baiThiDaKetThuc)
             {
@@ -155,7 +147,9 @@ namespace QuanLyTracNghiem.Thanhcongcu
 
                 ucItem.ItemClicked += (s, baiThi) =>
                 {
-                    MessageBox.Show("Chi tiết Bài Thi: " + baiThi.TenBaiThi);
+                    BaithidaKTcuthe baithidaKTcuthe = new BaithidaKTcuthe();
+                    baithidaKTcuthe.baithi = baiThi;
+                    baithidaKTcuthe.ShowDialog();
                 };
 
                 flpBaiThiDaKetThucMain.Controls.Add(ucItem);
@@ -203,6 +197,11 @@ namespace QuanLyTracNghiem.Thanhcongcu
         private void txtTimkiem_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtTimkiem_Click(object sender, EventArgs e)
+        {
+            
         }
 
         private void guna2ImageRadioButton1_CheckedChanged(object sender, EventArgs e)
@@ -512,12 +511,29 @@ namespace QuanLyTracNghiem.Thanhcongcu
 
         private void txtBtnListBaiThiSapDienRa_Click(object sender, EventArgs e)
         {
-
+            frmBaithisapdienra frmBaithisapdienra = new frmBaithisapdienra();
+            frmBaithisapdienra.ShowDialog();
         }
 
         private void guna2Panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void txtBtnListBaiThiDaKetThuc_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox1_TextChanged_2(object sender, EventArgs e)
+        {
+            MessageBox.Show("Tìm kiếm" + txtTimkiem.Text);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            clearListBaiThiSapDienRa();
+            loadListBaiThiSapDienRa(txtTimkiem.Text);
         }
     }
 }

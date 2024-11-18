@@ -55,6 +55,7 @@
             txtBtnListBaiThiDaKetThuc = new Guna.UI2.WinForms.Guna2TileButton();
             flpBaiThiDaKetThucMain = new FlowLayoutPanel();
             flowLayoutPanel2 = new FlowLayoutPanel();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             guna2Panel1.SuspendLayout();
             guna2Panel2.SuspendLayout();
@@ -67,7 +68,7 @@
             txtTimkiem.BorderRadius = 2;
             txtTimkiem.Cursor = Cursors.IBeam;
             txtTimkiem.CustomizableEdges = customizableEdges1;
-            txtTimkiem.DefaultText = "Nhập từ khóa";
+            txtTimkiem.DefaultText = "";
             txtTimkiem.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtTimkiem.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             txtTimkiem.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
@@ -81,7 +82,7 @@
             txtTimkiem.Margin = new Padding(4, 3, 4, 3);
             txtTimkiem.Name = "txtTimkiem";
             txtTimkiem.PasswordChar = '\0';
-            txtTimkiem.PlaceholderText = "";
+            txtTimkiem.PlaceholderText = "Nhập từ khóa";
             txtTimkiem.SelectedText = "";
             txtTimkiem.ShadowDecoration.CustomizableEdges = customizableEdges2;
             txtTimkiem.Size = new Size(508, 45);
@@ -146,7 +147,7 @@
             guna2Panel1.Location = new Point(98, 151);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2Panel1.Size = new Size(1342, 500);
+            guna2Panel1.Size = new Size(1342, 342);
             guna2Panel1.TabIndex = 31;
             guna2Panel1.Paint += guna2Panel1_Paint;
             // 
@@ -158,25 +159,25 @@
             txtBtnListBaiThiSapDienRa.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             txtBtnListBaiThiSapDienRa.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             txtBtnListBaiThiSapDienRa.Dock = DockStyle.Left;
-            txtBtnListBaiThiSapDienRa.Font = new Font("Segoe UI", 9F);
-            txtBtnListBaiThiSapDienRa.ForeColor = Color.White;
+            txtBtnListBaiThiSapDienRa.FillColor = Color.Transparent;
+            txtBtnListBaiThiSapDienRa.Font = new Font("Segoe UI", 18F);
+            txtBtnListBaiThiSapDienRa.ForeColor = Color.Black;
             txtBtnListBaiThiSapDienRa.Location = new Point(0, 0);
             txtBtnListBaiThiSapDienRa.Margin = new Padding(3, 3, 3, 25);
             txtBtnListBaiThiSapDienRa.Name = "txtBtnListBaiThiSapDienRa";
             txtBtnListBaiThiSapDienRa.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            txtBtnListBaiThiSapDienRa.Size = new Size(389, 500);
+            txtBtnListBaiThiSapDienRa.Size = new Size(389, 57);
             txtBtnListBaiThiSapDienRa.TabIndex = 2;
-            txtBtnListBaiThiSapDienRa.Text = "Danh sách bài thi sắp diễn ra";
+            txtBtnListBaiThiSapDienRa.Text = "Danh sách bài thi sắp diễn ra >";
             txtBtnListBaiThiSapDienRa.Click += txtBtnListBaiThiSapDienRa_Click;
             // 
             // flpBaiThiSapDienRaMain
             // 
             flpBaiThiSapDienRaMain.AutoScroll = true;
-            flpBaiThiSapDienRaMain.AutoSize = false;
             flpBaiThiSapDienRaMain.Dock = DockStyle.Bottom;
-            flpBaiThiSapDienRaMain.Location = new Point(0, 500);
+            flpBaiThiSapDienRaMain.Location = new Point(0, 57);
             flpBaiThiSapDienRaMain.Name = "flpBaiThiSapDienRaMain";
-            flpBaiThiSapDienRaMain.Size = new Size(1342, 334);
+            flpBaiThiSapDienRaMain.Size = new Size(1342, 285);
             flpBaiThiSapDienRaMain.TabIndex = 1;
             flpBaiThiSapDienRaMain.WrapContents = false;
             // 
@@ -184,21 +185,20 @@
             // 
             flpBaiThiSapDienRa.AutoSize = true;
             flpBaiThiSapDienRa.Dock = DockStyle.Bottom;
-            flpBaiThiSapDienRa.Location = new Point(0, 500);
+            flpBaiThiSapDienRa.Location = new Point(0, 342);
             flpBaiThiSapDienRa.Name = "flpBaiThiSapDienRa";
             flpBaiThiSapDienRa.Size = new Size(1342, 0);
             flpBaiThiSapDienRa.TabIndex = 0;
             flpBaiThiSapDienRa.Paint += flpBaiThiSapDienRa_Paint;
             // 
-            // flpBaiThiDaKetThucMain
+            // guna2Panel2
             // 
-            guna2Panel2.AutoSize = false;
             guna2Panel2.Controls.Add(txtBtnListBaiThiDaKetThuc);
             guna2Panel2.Controls.Add(flpBaiThiDaKetThucMain);
             guna2Panel2.Controls.Add(flowLayoutPanel2);
             guna2Panel2.CustomizableEdges = customizableEdges13;
-            guna2Panel2.Location = new Point(98, 752);
-            guna2Panel2.Name = "flpBaiThiDaKetThucMain";
+            guna2Panel2.Location = new Point(98, 538);
+            guna2Panel2.Name = "guna2Panel2";
             guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges14;
             guna2Panel2.Size = new Size(1342, 500);
             guna2Panel2.TabIndex = 32;
@@ -211,23 +211,27 @@
             txtBtnListBaiThiDaKetThuc.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             txtBtnListBaiThiDaKetThuc.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             txtBtnListBaiThiDaKetThuc.Dock = DockStyle.Left;
-            txtBtnListBaiThiDaKetThuc.Font = new Font("Segoe UI", 9F);
-            txtBtnListBaiThiDaKetThuc.ForeColor = Color.White;
+            txtBtnListBaiThiDaKetThuc.FillColor = Color.White;
+            txtBtnListBaiThiDaKetThuc.Font = new Font("Segoe UI", 18F);
+            txtBtnListBaiThiDaKetThuc.ForeColor = Color.Black;
             txtBtnListBaiThiDaKetThuc.Location = new Point(0, 0);
             txtBtnListBaiThiDaKetThuc.Margin = new Padding(3, 3, 3, 25);
             txtBtnListBaiThiDaKetThuc.Name = "txtBtnListBaiThiDaKetThuc";
             txtBtnListBaiThiDaKetThuc.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            txtBtnListBaiThiDaKetThuc.Size = new Size(389, 500);
+            txtBtnListBaiThiDaKetThuc.Size = new Size(389, 78);
             txtBtnListBaiThiDaKetThuc.TabIndex = 2;
-            txtBtnListBaiThiDaKetThuc.Text = "Danh sách bài thi đã kết thúc";
+            txtBtnListBaiThiDaKetThuc.Text = "Danh sách bài thi đã kết thúc >";
+            txtBtnListBaiThiDaKetThuc.Click += txtBtnListBaiThiDaKetThuc_Click;
             // 
             // flpBaiThiDaKetThucMain
             // 
             flpBaiThiDaKetThucMain.AutoScroll = true;
             flpBaiThiDaKetThucMain.Dock = DockStyle.Bottom;
-            flpBaiThiDaKetThucMain.Location = new Point(0, 500);
+            flpBaiThiDaKetThucMain.Font = new Font("Segoe UI", 18F);
+            flpBaiThiDaKetThucMain.ForeColor = Color.Black;
+            flpBaiThiDaKetThucMain.Location = new Point(0, 78);
             flpBaiThiDaKetThucMain.Name = "flpBaiThiDaKetThucMain";
-            flpBaiThiDaKetThucMain.Size = new Size(1342, 334);
+            flpBaiThiDaKetThucMain.Size = new Size(1342, 422);
             flpBaiThiDaKetThucMain.TabIndex = 1;
             flpBaiThiDaKetThucMain.WrapContents = false;
             // 
@@ -240,12 +244,23 @@
             flowLayoutPanel2.Size = new Size(1342, 0);
             flowLayoutPanel2.TabIndex = 0;
             // 
+            // button1
+            // 
+            button1.Location = new Point(564, 54);
+            button1.Name = "button1";
+            button1.Size = new Size(42, 45);
+            button1.TabIndex = 33;
+            button1.Text = "Tim";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // TCC_Baithi
             // 
             AutoScaleMode = AutoScaleMode.None;
             AutoScroll = true;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackColor = Color.White;
+            Controls.Add(button1);
             Controls.Add(guna2Panel2);
             Controls.Add(guna2Panel1);
             Controls.Add(guna2PictureBox1);
@@ -254,7 +269,7 @@
             Controls.Add(txtTimkiem);
             Location = new Point(0, -60);
             Name = "TCC_Baithi";
-            Size = new Size(1689, 1038);
+            Size = new Size(1621, 1038);
             Load += TCC_Baithi_Load;
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             guna2Panel1.ResumeLayout(false);
@@ -279,5 +294,6 @@
         private FlowLayoutPanel flowLayoutPanel2;
         private Guna.UI2.WinForms.Guna2TileButton txtBtnListBaiThiSapDienRa;
         private Guna.UI2.WinForms.Guna2TileButton txtBtnListBaiThiDaKetThuc;
+        private Button button1;
     }
 }
