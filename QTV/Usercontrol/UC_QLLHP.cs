@@ -24,16 +24,16 @@ namespace QTV.Usercontrol
             InitializeComponent();
             LoadData();
             InitializeFluentDesign();
-            
+
         }
 
 
         private void InitializeFluentDesign()
         {
             dataGridView1.BorderStyle = BorderStyle.None;
-            dataGridView1.EnableHeadersVisualStyles = false;
-            dataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.LightSlateGray;
+            dataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(64, 64, 128);
             dataGridView1.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            dataGridView1.EnableHeadersVisualStyles = false;
             dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
             dataGridView1.DefaultCellStyle.BackColor = Color.White;
             dataGridView1.DefaultCellStyle.ForeColor = Color.Black;
@@ -68,6 +68,17 @@ namespace QTV.Usercontrol
 
             dataGridView1.Columns["EditColumn"].DisplayIndex = dataGridView1.Columns.Count - 2;
             dataGridView1.Columns["DeleteColumn"].DisplayIndex = dataGridView1.Columns.Count - 1;
+        }
+        public void dataGridView1_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            // Đặt màu cho header
+            dataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(64, 64, 128);
+            dataGridView1.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            dataGridView1.EnableHeadersVisualStyles = false;
+
+            // Đặt màu cho cell
+            e.CellStyle.BackColor = Color.White;
+            e.CellStyle.ForeColor = Color.Black; // Màu chữ cho cell
         }
 
         private void HandleDetele(String MaLHP)
@@ -115,7 +126,8 @@ namespace QTV.Usercontrol
                 {
                     MessageBox.Show("Không thể xác định Mã LHP để xóa.");
                 }
-            } else if (e.ColumnIndex == dataGridView1.Columns["DSSV"].Index && e.RowIndex >= 0)
+            }
+            else if (e.ColumnIndex == dataGridView1.Columns["DSSV"].Index && e.RowIndex >= 0)
             {
                 string maLHP = dataGridView1.Rows[e.RowIndex].Cells["MaLHP"].Value?.ToString();
                 frmSinhVienLHP frmSinhVienLHP = new frmSinhVienLHP(maLHP);
@@ -161,7 +173,7 @@ namespace QTV.Usercontrol
                 MessageBox.Show(ex.Message);
             }
         }
-        
+
         // View specific methods
         private void LoadData()
         {
@@ -179,7 +191,12 @@ namespace QTV.Usercontrol
                 column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             }
         }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
-    
-    
+
+
 }

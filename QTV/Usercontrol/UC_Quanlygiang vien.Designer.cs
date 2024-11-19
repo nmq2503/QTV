@@ -30,9 +30,9 @@
         {
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Quanlygiang_vien));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Quanlygiang_vien));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -136,7 +136,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 22.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.FromArgb(64, 64, 64);
+            label1.ForeColor = Color.FromArgb(64, 64, 128);
             label1.Location = new Point(20, 23);
             label1.Name = "label1";
             label1.Size = new Size(321, 50);
@@ -155,12 +155,14 @@
             guna2Button1.FillColor = Color.Firebrick;
             guna2Button1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2Button1.ForeColor = Color.White;
+            guna2Button1.Image = (Image)resources.GetObject("guna2Button1.Image");
+            guna2Button1.ImageOffset = new Point(-2, 0);
             guna2Button1.Location = new Point(1145, 278);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
             guna2Button1.Size = new Size(147, 49);
             guna2Button1.TabIndex = 16;
-            guna2Button1.Text = "CẬP NHẬT";
+            guna2Button1.Text = "Cập nhật";
             guna2Button1.Click += guna2Button1_Click;
             // 
             // guna2Button2
@@ -171,16 +173,17 @@
             guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button2.FillColor = Color.FromArgb(57, 90, 127);
+            guna2Button2.FillColor = Color.FromArgb(64, 64, 128);
             guna2Button2.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2Button2.ForeColor = Color.White;
             guna2Button2.Image = (Image)resources.GetObject("guna2Button2.Image");
+            guna2Button2.ImageOffset = new Point(-3, 0);
             guna2Button2.Location = new Point(875, 278);
             guna2Button2.Name = "guna2Button2";
             guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges4;
             guna2Button2.Size = new Size(147, 49);
             guna2Button2.TabIndex = 17;
-            guna2Button2.Text = "THÊM";
+            guna2Button2.Text = "Thêm";
             guna2Button2.Click += guna2Button2_Click;
             // 
             // guna2Button3
@@ -195,22 +198,25 @@
             guna2Button3.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2Button3.ForeColor = Color.White;
             guna2Button3.Image = (Image)resources.GetObject("guna2Button3.Image");
+            guna2Button3.ImageOffset = new Point(-1, 0);
             guna2Button3.Location = new Point(555, 278);
             guna2Button3.Name = "guna2Button3";
             guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2Button3.Size = new Size(147, 49);
             guna2Button3.TabIndex = 18;
-            guna2Button3.Text = "XUẤT EXCEL";
+            guna2Button3.Text = "Xuất Excel";
             guna2Button3.Click += guna2Button3_Click;
             // 
             // button1
             // 
+            button1.BackColor = Color.Silver;
+            button1.ForeColor = Color.Black;
             button1.Location = new Point(893, 356);
             button1.Name = "button1";
             button1.Size = new Size(107, 35);
             button1.TabIndex = 19;
             button1.Text = "Tải dữ liệu";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click_1;
             // 
             // UC_Quanlygiang_vien

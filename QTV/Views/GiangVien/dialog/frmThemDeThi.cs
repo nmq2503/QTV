@@ -48,7 +48,7 @@ namespace QL_Trac_Nghiem
                 _danhSachMaCauHoiDaChon = _deThiHienTai.DanhSachMaCauHoiDaChon;
             }
             LoadData(_monHocHienTai.MaMon);
-            
+
         }
 
         private void frmThemDeThi_Load(object sender, EventArgs e)
@@ -68,7 +68,7 @@ namespace QL_Trac_Nghiem
             //LoadDataMucDo();
             //LoadDataDanhSachCauHoi(_monHocHienTai.MaMon);
 
-            
+
         }
 
         private void LoadData(string maMon)
@@ -206,7 +206,7 @@ namespace QL_Trac_Nghiem
                     }
                     // dataGridViewDanhSachCauHoi.Refresh();
                 }
-                
+
             }
             else
             {
@@ -411,10 +411,16 @@ namespace QL_Trac_Nghiem
             {
                 frmXemTruocDeThi frmXemTruocDeThi = new frmXemTruocDeThi(_tenDeThi, _maChuongDaChon, _maMucDoDaChon, _danhSachMaCauHoiDaChon);
                 frmXemTruocDeThi.ShowDialog();
-            } else
+            }
+            else
             {
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin!");
             }
+        }
+
+        private void dataGridViewDanhSachCauHoi_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             mainPanel = new Guna.UI2.WinForms.Guna2Panel();
             container = new Guna.UI2.WinForms.Guna2Panel();
             lblTGBatDau = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -51,28 +51,34 @@
             // 
             mainPanel.Controls.Add(container);
             mainPanel.Controls.Add(img);
-            mainPanel.CustomizableEdges = customizableEdges11;
+            mainPanel.CustomizableEdges = customizableEdges5;
             mainPanel.Dock = DockStyle.Fill;
             mainPanel.Location = new Point(0, 0);
             mainPanel.Name = "mainPanel";
-            mainPanel.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            mainPanel.ShadowDecoration.CustomizableEdges = customizableEdges6;
             mainPanel.Size = new Size(445, 334);
             mainPanel.TabIndex = 0;
             // 
             // container
             // 
+            container.BorderColor = Color.Gray;
+            container.BorderRadius = 4;
+            container.BorderThickness = 2;
             container.Controls.Add(lblTGBatDau);
             container.Controls.Add(lblTenLopHP);
             container.Controls.Add(LabelTGBatDau);
             container.Controls.Add(LabelTenLopHP);
             container.Controls.Add(lblTenBaiThi);
-            container.CustomizableEdges = customizableEdges7;
+            container.CustomBorderThickness = new Padding(3, 0, 3, 3);
+            customizableEdges1.TopLeft = false;
+            customizableEdges1.TopRight = false;
+            container.CustomizableEdges = customizableEdges1;
             container.Dock = DockStyle.Bottom;
             container.Location = new Point(0, 172);
             container.Margin = new Padding(0);
             container.Name = "container";
             container.Padding = new Padding(25, 20, 25, 20);
-            container.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            container.ShadowDecoration.CustomizableEdges = customizableEdges2;
             container.Size = new Size(445, 162);
             container.TabIndex = 2;
             // 
@@ -88,6 +94,7 @@
             // lblTenLopHP
             // 
             lblTenLopHP.BackColor = Color.Transparent;
+            lblTenLopHP.ForeColor = Color.Black;
             lblTenLopHP.Location = new Point(121, 65);
             lblTenLopHP.Name = "lblTenLopHP";
             lblTenLopHP.Size = new Size(44, 22);
@@ -97,6 +104,7 @@
             // LabelTGBatDau
             // 
             LabelTGBatDau.BackColor = Color.Transparent;
+            LabelTGBatDau.ForeColor = Color.FromArgb(64, 64, 64);
             LabelTGBatDau.Location = new Point(28, 105);
             LabelTGBatDau.Name = "LabelTGBatDau";
             LabelTGBatDau.Size = new Size(68, 22);
@@ -106,6 +114,7 @@
             // LabelTenLopHP
             // 
             LabelTenLopHP.BackColor = Color.Transparent;
+            LabelTenLopHP.ForeColor = Color.FromArgb(64, 64, 64);
             LabelTenLopHP.Location = new Point(28, 65);
             LabelTenLopHP.Name = "LabelTenLopHP";
             LabelTenLopHP.Size = new Size(56, 22);
@@ -115,23 +124,27 @@
             // lblTenBaiThi
             // 
             lblTenBaiThi.BackColor = Color.Transparent;
+            lblTenBaiThi.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTenBaiThi.ForeColor = Color.FromArgb(64, 64, 64);
             lblTenBaiThi.Location = new Point(28, 24);
             lblTenBaiThi.Name = "lblTenBaiThi";
-            lblTenBaiThi.Size = new Size(73, 22);
+            lblTenBaiThi.Size = new Size(101, 25);
             lblTenBaiThi.TabIndex = 0;
-            lblTenBaiThi.Text = "Tên bài thi";
+            lblTenBaiThi.Text = "TÊN BÀI THI";
+            lblTenBaiThi.Click += lblTenBaiThi_Click;
             // 
             // img
             // 
-            img.CustomizableEdges = customizableEdges9;
+            img.BorderRadius = 4;
+            img.CustomizableEdges = customizableEdges3;
             img.Dock = DockStyle.Top;
             img.Image = Properties.Resources.art_7065738_640;
             img.ImageRotate = 0F;
             img.Location = new Point(0, 0);
             img.Margin = new Padding(0);
             img.Name = "img";
-            img.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            img.Size = new Size(445, 166);
+            img.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            img.Size = new Size(445, 179);
             img.TabIndex = 0;
             img.TabStop = false;
             // 

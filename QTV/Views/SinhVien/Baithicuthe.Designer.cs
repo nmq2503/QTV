@@ -64,6 +64,8 @@ namespace QuanLyTracNghiem.Thanhcongcu
             // 
             // txtTenbaithicuthe
             // 
+            txtTenbaithicuthe.BorderColor = Color.Silver;
+            txtTenbaithicuthe.BorderRadius = 4;
             txtTenbaithicuthe.Cursor = Cursors.IBeam;
             txtTenbaithicuthe.CustomizableEdges = customizableEdges1;
             txtTenbaithicuthe.DefaultText = "";
@@ -75,19 +77,21 @@ namespace QuanLyTracNghiem.Thanhcongcu
             txtTenbaithicuthe.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txtTenbaithicuthe.ForeColor = Color.FromArgb(57, 90, 127);
             txtTenbaithicuthe.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtTenbaithicuthe.Location = new Point(42, 43);
-            txtTenbaithicuthe.Margin = new Padding(4, 5, 4, 5);
+            txtTenbaithicuthe.Location = new Point(48, 57);
+            txtTenbaithicuthe.Margin = new Padding(5, 7, 5, 7);
             txtTenbaithicuthe.Name = "txtTenbaithicuthe";
             txtTenbaithicuthe.PasswordChar = '\0';
             txtTenbaithicuthe.PlaceholderText = "";
             txtTenbaithicuthe.SelectedText = "";
             txtTenbaithicuthe.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            txtTenbaithicuthe.Size = new Size(555, 63);
+            txtTenbaithicuthe.Size = new Size(634, 84);
             txtTenbaithicuthe.TabIndex = 0;
             txtTenbaithicuthe.TextAlign = HorizontalAlignment.Center;
             // 
             // txtLopbaithi
             // 
+            txtLopbaithi.BorderColor = Color.Silver;
+            txtLopbaithi.BorderRadius = 4;
             txtLopbaithi.Cursor = Cursors.IBeam;
             txtLopbaithi.CustomizableEdges = customizableEdges3;
             txtLopbaithi.DefaultText = "";
@@ -97,21 +101,23 @@ namespace QuanLyTracNghiem.Thanhcongcu
             txtLopbaithi.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtLopbaithi.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtLopbaithi.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtLopbaithi.ForeColor = Color.Gray;
+            txtLopbaithi.ForeColor = Color.FromArgb(64, 64, 64);
             txtLopbaithi.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtLopbaithi.Location = new Point(235, 113);
-            txtLopbaithi.Margin = new Padding(4);
+            txtLopbaithi.Location = new Point(269, 151);
+            txtLopbaithi.Margin = new Padding(5, 5, 5, 5);
             txtLopbaithi.Name = "txtLopbaithi";
             txtLopbaithi.PasswordChar = '\0';
             txtLopbaithi.PlaceholderText = "";
             txtLopbaithi.SelectedText = "";
             txtLopbaithi.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            txtLopbaithi.Size = new Size(223, 46);
+            txtLopbaithi.Size = new Size(255, 61);
             txtLopbaithi.TabIndex = 1;
             txtLopbaithi.TextAlign = HorizontalAlignment.Center;
             // 
             // txtMotabaithi
             // 
+            txtMotabaithi.BorderColor = Color.Silver;
+            txtMotabaithi.BorderRadius = 4;
             txtMotabaithi.Cursor = Cursors.IBeam;
             txtMotabaithi.CustomizableEdges = customizableEdges5;
             txtMotabaithi.DefaultText = "";
@@ -123,17 +129,20 @@ namespace QuanLyTracNghiem.Thanhcongcu
             txtMotabaithi.Font = new Font("Segoe UI Semilight", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtMotabaithi.ForeColor = Color.Gray;
             txtMotabaithi.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtMotabaithi.Location = new Point(42, 167);
+            txtMotabaithi.Location = new Point(48, 223);
+            txtMotabaithi.Margin = new Padding(3, 5, 3, 5);
             txtMotabaithi.Name = "txtMotabaithi";
             txtMotabaithi.PasswordChar = '\0';
             txtMotabaithi.PlaceholderText = "";
             txtMotabaithi.SelectedText = "";
             txtMotabaithi.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            txtMotabaithi.Size = new Size(555, 72);
+            txtMotabaithi.Size = new Size(634, 96);
             txtMotabaithi.TabIndex = 2;
             // 
             // txtSocauhoi
             // 
+            txtSocauhoi.BorderColor = Color.Silver;
+            txtSocauhoi.BorderRadius = 4;
             txtSocauhoi.Cursor = Cursors.IBeam;
             txtSocauhoi.CustomizableEdges = customizableEdges7;
             txtSocauhoi.DefaultText = "";
@@ -145,14 +154,14 @@ namespace QuanLyTracNghiem.Thanhcongcu
             txtSocauhoi.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtSocauhoi.ForeColor = Color.Gray;
             txtSocauhoi.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtSocauhoi.Location = new Point(148, 261);
-            txtSocauhoi.Margin = new Padding(4);
+            txtSocauhoi.Location = new Point(169, 348);
+            txtSocauhoi.Margin = new Padding(5, 5, 5, 5);
             txtSocauhoi.Name = "txtSocauhoi";
             txtSocauhoi.PasswordChar = '\0';
             txtSocauhoi.PlaceholderText = "";
             txtSocauhoi.SelectedText = "";
             txtSocauhoi.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            txtSocauhoi.Size = new Size(449, 43);
+            txtSocauhoi.Size = new Size(513, 57);
             txtSocauhoi.TabIndex = 3;
             txtSocauhoi.TextChanged += txtSocauhoi_TextChanged;
             // 
@@ -161,14 +170,17 @@ namespace QuanLyTracNghiem.Thanhcongcu
             guna2HtmlLabel1.BackColor = Color.Transparent;
             guna2HtmlLabel1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel1.ForeColor = Color.FromArgb(64, 64, 64);
-            guna2HtmlLabel1.Location = new Point(42, 268);
+            guna2HtmlLabel1.Location = new Point(48, 357);
+            guna2HtmlLabel1.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(78, 23);
+            guna2HtmlLabel1.Size = new Size(98, 30);
             guna2HtmlLabel1.TabIndex = 4;
             guna2HtmlLabel1.Text = "Số câu hỏi:";
             // 
             // guna2TextBox1
             // 
+            guna2TextBox1.BorderColor = Color.Silver;
+            guna2TextBox1.BorderRadius = 4;
             guna2TextBox1.Cursor = Cursors.IBeam;
             guna2TextBox1.CustomizableEdges = customizableEdges9;
             guna2TextBox1.DefaultText = "";
@@ -180,18 +192,20 @@ namespace QuanLyTracNghiem.Thanhcongcu
             guna2TextBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2TextBox1.ForeColor = Color.Gray;
             guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(194, 322);
-            guna2TextBox1.Margin = new Padding(4);
+            guna2TextBox1.Location = new Point(222, 429);
+            guna2TextBox1.Margin = new Padding(5, 5, 5, 5);
             guna2TextBox1.Name = "guna2TextBox1";
             guna2TextBox1.PasswordChar = '\0';
             guna2TextBox1.PlaceholderText = "";
             guna2TextBox1.SelectedText = "";
             guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2TextBox1.Size = new Size(402, 43);
+            guna2TextBox1.Size = new Size(459, 57);
             guna2TextBox1.TabIndex = 5;
             // 
             // guna2TextBox2
             // 
+            guna2TextBox2.BorderColor = Color.Silver;
+            guna2TextBox2.BorderRadius = 4;
             guna2TextBox2.Cursor = Cursors.IBeam;
             guna2TextBox2.CustomizableEdges = customizableEdges11;
             guna2TextBox2.DefaultText = "";
@@ -203,19 +217,21 @@ namespace QuanLyTracNghiem.Thanhcongcu
             guna2TextBox2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2TextBox2.ForeColor = Color.Gray;
             guna2TextBox2.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Location = new Point(194, 382);
-            guna2TextBox2.Margin = new Padding(4);
+            guna2TextBox2.Location = new Point(222, 509);
+            guna2TextBox2.Margin = new Padding(5, 5, 5, 5);
             guna2TextBox2.Name = "guna2TextBox2";
             guna2TextBox2.PasswordChar = '\0';
             guna2TextBox2.PlaceholderText = "";
             guna2TextBox2.SelectedText = "";
             guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2TextBox2.Size = new Size(402, 43);
+            guna2TextBox2.Size = new Size(459, 57);
             guna2TextBox2.TabIndex = 6;
             guna2TextBox2.TextChanged += guna2TextBox2_TextChanged;
             // 
             // guna2TextBox3
             // 
+            guna2TextBox3.BorderColor = Color.Silver;
+            guna2TextBox3.BorderRadius = 4;
             guna2TextBox3.Cursor = Cursors.IBeam;
             guna2TextBox3.CustomizableEdges = customizableEdges13;
             guna2TextBox3.DefaultText = "";
@@ -227,14 +243,14 @@ namespace QuanLyTracNghiem.Thanhcongcu
             guna2TextBox3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2TextBox3.ForeColor = Color.Gray;
             guna2TextBox3.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Location = new Point(194, 442);
-            guna2TextBox3.Margin = new Padding(4);
+            guna2TextBox3.Location = new Point(222, 589);
+            guna2TextBox3.Margin = new Padding(5, 5, 5, 5);
             guna2TextBox3.Name = "guna2TextBox3";
             guna2TextBox3.PasswordChar = '\0';
             guna2TextBox3.PlaceholderText = "";
             guna2TextBox3.SelectedText = "";
             guna2TextBox3.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2TextBox3.Size = new Size(402, 43);
+            guna2TextBox3.Size = new Size(459, 57);
             guna2TextBox3.TabIndex = 7;
             // 
             // guna2HtmlLabel2
@@ -242,9 +258,10 @@ namespace QuanLyTracNghiem.Thanhcongcu
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel2.ForeColor = Color.FromArgb(64, 64, 64);
-            guna2HtmlLabel2.Location = new Point(42, 329);
+            guna2HtmlLabel2.Location = new Point(48, 439);
+            guna2HtmlLabel2.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(129, 23);
+            guna2HtmlLabel2.Size = new Size(162, 30);
             guna2HtmlLabel2.TabIndex = 8;
             guna2HtmlLabel2.Text = "Thời lượng bài thi:";
             guna2HtmlLabel2.Click += guna2HtmlLabel2_Click;
@@ -254,9 +271,10 @@ namespace QuanLyTracNghiem.Thanhcongcu
             guna2HtmlLabel3.BackColor = Color.Transparent;
             guna2HtmlLabel3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel3.ForeColor = Color.FromArgb(64, 64, 64);
-            guna2HtmlLabel3.Location = new Point(42, 389);
+            guna2HtmlLabel3.Location = new Point(48, 519);
+            guna2HtmlLabel3.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(127, 23);
+            guna2HtmlLabel3.Size = new Size(160, 30);
             guna2HtmlLabel3.TabIndex = 9;
             guna2HtmlLabel3.Text = "Thời gian bắt đầu:";
             // 
@@ -265,9 +283,10 @@ namespace QuanLyTracNghiem.Thanhcongcu
             guna2HtmlLabel4.BackColor = Color.Transparent;
             guna2HtmlLabel4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel4.ForeColor = Color.FromArgb(64, 64, 64);
-            guna2HtmlLabel4.Location = new Point(42, 449);
+            guna2HtmlLabel4.Location = new Point(48, 599);
+            guna2HtmlLabel4.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            guna2HtmlLabel4.Size = new Size(130, 23);
+            guna2HtmlLabel4.Size = new Size(163, 30);
             guna2HtmlLabel4.TabIndex = 10;
             guna2HtmlLabel4.Text = "Thời gian kết thúc:";
             // 
@@ -284,10 +303,11 @@ namespace QuanLyTracNghiem.Thanhcongcu
             guna2Button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2Button1.ForeColor = Color.White;
             guna2Button1.HoverState.FillColor = Color.FromArgb(153, 0, 0);
-            guna2Button1.Location = new Point(214, 519);
+            guna2Button1.Location = new Point(245, 692);
+            guna2Button1.Margin = new Padding(3, 4, 3, 4);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            guna2Button1.Size = new Size(206, 51);
+            guna2Button1.Size = new Size(235, 68);
             guna2Button1.TabIndex = 11;
             guna2Button1.Text = "LÀM BÀI";
             guna2Button1.Click += guna2Button1_Click;
@@ -296,19 +316,20 @@ namespace QuanLyTracNghiem.Thanhcongcu
             // 
             guna2HtmlLabel5.BackColor = Color.Transparent;
             guna2HtmlLabel5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel5.ForeColor = Color.Gray;
-            guna2HtmlLabel5.Location = new Point(194, 122);
+            guna2HtmlLabel5.ForeColor = Color.FromArgb(64, 64, 64);
+            guna2HtmlLabel5.Location = new Point(222, 163);
+            guna2HtmlLabel5.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            guna2HtmlLabel5.Size = new Size(33, 23);
+            guna2HtmlLabel5.Size = new Size(40, 30);
             guna2HtmlLabel5.TabIndex = 12;
             guna2HtmlLabel5.Text = "Lớp:";
             // 
             // Baithicuthe
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(641, 604);
+            ClientSize = new Size(733, 805);
             Controls.Add(guna2HtmlLabel5);
             Controls.Add(guna2Button1);
             Controls.Add(guna2HtmlLabel4);
@@ -323,6 +344,7 @@ namespace QuanLyTracNghiem.Thanhcongcu
             Controls.Add(txtLopbaithi);
             Controls.Add(txtTenbaithicuthe);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Baithicuthe";
             StartPosition = FormStartPosition.CenterScreen;
             TopMost = true;
