@@ -201,7 +201,7 @@ namespace QuanLyTracNghiem.Thanhcongcu
 
         private void txtTimkiem_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void guna2ImageRadioButton1_CheckedChanged(object sender, EventArgs e)
@@ -522,7 +522,8 @@ namespace QuanLyTracNghiem.Thanhcongcu
 
         private void txtBtnListBaiThiDaKetThuc_Click(object sender, EventArgs e)
         {
-
+            frmBaithidaKT frmBaithidaKT = new frmBaithidaKT();
+            frmBaithidaKT.ShowDialog();
         }
 
         private void guna2TextBox1_TextChanged_2(object sender, EventArgs e)
@@ -534,6 +535,11 @@ namespace QuanLyTracNghiem.Thanhcongcu
         {
             clearListBaiThiSapDienRa();
             loadListBaiThiSapDienRa(txtTimkiem.Text);
+        }
+
+        private void guna2ComboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

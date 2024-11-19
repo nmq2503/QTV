@@ -35,5 +35,10 @@ namespace QTV.Usercontrol.giangVien
         {
 
         }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

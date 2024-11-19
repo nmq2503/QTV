@@ -56,44 +56,46 @@
             mainPanel.Controls.Add(img);
             mainPanel.CustomizableEdges = customizableEdges7;
             mainPanel.Location = new Point(0, 0);
-            mainPanel.Margin = new Padding(3, 2, 3, 2);
             mainPanel.Name = "mainPanel";
             mainPanel.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            mainPanel.Size = new Size(389, 250);
+            mainPanel.Size = new Size(445, 333);
             mainPanel.TabIndex = 0;
             // 
             // container
             // 
+            container.BorderThickness = 1;
             container.Controls.Add(btnLamBai);
             container.Controls.Add(lblTGBatDau);
             container.Controls.Add(lblTenLopHP);
             container.Controls.Add(LabelTGBatDau);
             container.Controls.Add(LabelTenLopHP);
             container.Controls.Add(lblTenBaiThi);
+            container.CustomBorderThickness = new Padding(3, 0, 3, 3);
             container.CustomizableEdges = customizableEdges3;
             container.Dock = DockStyle.Bottom;
-            container.Location = new Point(0, 122);
+            container.Location = new Point(0, 162);
             container.Margin = new Padding(0);
             container.Name = "container";
-            container.Padding = new Padding(22, 15, 22, 15);
+            container.Padding = new Padding(25, 20, 25, 20);
             container.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            container.Size = new Size(389, 128);
+            container.Size = new Size(445, 171);
             container.TabIndex = 1;
             // 
             // btnLamBai
             // 
+            btnLamBai.BorderRadius = 4;
             btnLamBai.CustomizableEdges = customizableEdges1;
             btnLamBai.DisabledState.BorderColor = Color.DarkGray;
             btnLamBai.DisabledState.CustomBorderColor = Color.DarkGray;
             btnLamBai.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnLamBai.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnLamBai.Font = new Font("Segoe UI", 9F);
+            btnLamBai.FillColor = Color.Firebrick;
+            btnLamBai.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnLamBai.ForeColor = Color.White;
-            btnLamBai.Location = new Point(242, 82);
-            btnLamBai.Margin = new Padding(3, 2, 3, 2);
+            btnLamBai.Location = new Point(277, 109);
             btnLamBai.Name = "btnLamBai";
             btnLamBai.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            btnLamBai.Size = new Size(123, 25);
+            btnLamBai.Size = new Size(141, 33);
             btnLamBai.TabIndex = 5;
             btnLamBai.Text = "Làm bài";
             btnLamBai.Click += btnLamBai_Click_1;
@@ -101,50 +103,47 @@
             // lblTGBatDau
             // 
             lblTGBatDau.BackColor = Color.Transparent;
-            lblTGBatDau.Location = new Point(106, 86);
-            lblTGBatDau.Margin = new Padding(3, 2, 3, 2);
+            lblTGBatDau.Location = new Point(121, 115);
             lblTGBatDau.Name = "lblTGBatDau";
-            lblTGBatDau.Size = new Size(95, 17);
+            lblTGBatDau.Size = new Size(120, 22);
             lblTGBatDau.TabIndex = 4;
             lblTGBatDau.Text = "Thời gian bắt đầu";
             // 
             // lblTenLopHP
             // 
             lblTenLopHP.BackColor = Color.Transparent;
-            lblTenLopHP.Location = new Point(106, 56);
-            lblTenLopHP.Margin = new Padding(3, 2, 3, 2);
+            lblTenLopHP.Location = new Point(121, 75);
             lblTenLopHP.Name = "lblTenLopHP";
-            lblTenLopHP.Size = new Size(34, 17);
+            lblTenLopHP.Size = new Size(44, 22);
             lblTenLopHP.TabIndex = 3;
             lblTenLopHP.Text = "K71E3";
             // 
             // LabelTGBatDau
             // 
             LabelTGBatDau.BackColor = Color.Transparent;
-            LabelTGBatDau.Location = new Point(24, 86);
-            LabelTGBatDau.Margin = new Padding(3, 2, 3, 2);
+            LabelTGBatDau.Location = new Point(27, 115);
             LabelTGBatDau.Name = "LabelTGBatDau";
-            LabelTGBatDau.Size = new Size(55, 17);
+            LabelTGBatDau.Size = new Size(68, 22);
             LabelTGBatDau.TabIndex = 2;
             LabelTGBatDau.Text = "Thời gian: ";
             // 
             // LabelTenLopHP
             // 
             LabelTenLopHP.BackColor = Color.Transparent;
-            LabelTenLopHP.Location = new Point(24, 56);
-            LabelTenLopHP.Margin = new Padding(3, 2, 3, 2);
+            LabelTenLopHP.Location = new Point(27, 75);
             LabelTenLopHP.Name = "LabelTenLopHP";
-            LabelTenLopHP.Size = new Size(45, 17);
+            LabelTenLopHP.Size = new Size(56, 22);
             LabelTenLopHP.TabIndex = 1;
             LabelTenLopHP.Text = "Tên lớp: ";
             // 
             // lblTenBaiThi
             // 
             lblTenBaiThi.BackColor = Color.Transparent;
-            lblTenBaiThi.Location = new Point(24, 25);
-            lblTenBaiThi.Margin = new Padding(3, 2, 3, 2);
+            lblTenBaiThi.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTenBaiThi.ForeColor = Color.FromArgb(64, 64, 64);
+            lblTenBaiThi.Location = new Point(27, 33);
             lblTenBaiThi.Name = "lblTenBaiThi";
-            lblTenBaiThi.Size = new Size(58, 17);
+            lblTenBaiThi.Size = new Size(89, 25);
             lblTenBaiThi.TabIndex = 0;
             lblTenBaiThi.Text = "Tên bài thi";
             // 
@@ -158,18 +157,18 @@
             img.Margin = new Padding(0);
             img.Name = "img";
             img.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            img.Size = new Size(389, 124);
+            img.Size = new Size(445, 165);
             img.TabIndex = 0;
             img.TabStop = false;
             // 
             // UcBaiThiSapDienRa
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(mainPanel);
-            Margin = new Padding(0, 0, 13, 0);
+            Margin = new Padding(0, 0, 15, 0);
             Name = "UcBaiThiSapDienRa";
-            Size = new Size(389, 250);
+            Size = new Size(445, 333);
             mainPanel.ResumeLayout(false);
             container.ResumeLayout(false);
             container.PerformLayout();

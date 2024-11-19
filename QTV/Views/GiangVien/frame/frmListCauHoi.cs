@@ -271,5 +271,15 @@ namespace QL_Trac_Nghiem
         {
             LoadData();
         }
+
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

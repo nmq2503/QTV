@@ -39,5 +39,10 @@ namespace QTV.Usercontrol.sinhVien
         {
             ItemClicked?.Invoke(this, BaiThi);
         }
+
+        private void lblTenBaiThi_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

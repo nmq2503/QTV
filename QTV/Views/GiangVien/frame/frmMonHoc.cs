@@ -188,12 +188,17 @@ namespace QL_Trac_Nghiem
 
         private void btnMonHoc_MouseHover(object sender, EventArgs e)
         {
-            btnMonHoc.ForeColor = ColorTranslator.FromHtml("#395A7F");
+            btnMonHoc.ForeColor = ColorTranslator.FromHtml("#404080");
         }
 
-        private void btnBaoCao_MouseHover(object sender, EventArgs e)
+        private void btnBaoCao_MouseHover_1(object sender, EventArgs e)
         {
-            btnBaoCao.ForeColor = ColorTranslator.FromHtml("#395A7F");
+            btnBaoCao.ForeColor = ColorTranslator.FromHtml("#404080");
+        }
+
+        private void btnMonHoc_MouseEnter(object sender, EventArgs e)
+        {
+            btnMonHoc.ForeColor = ColorTranslator.FromHtml("#404080");
         }
     }
 }

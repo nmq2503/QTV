@@ -25,9 +25,9 @@ namespace QTV.Usercontrol
         {
             // Set up Fluent Design aesthetic for DataGridView
             dataGridView1.BorderStyle = BorderStyle.None;
-            dataGridView1.EnableHeadersVisualStyles = false;
-            dataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.LightSlateGray;
+            dataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(64, 64, 128);
             dataGridView1.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            dataGridView1.EnableHeadersVisualStyles = false;
             dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
             dataGridView1.DefaultCellStyle.BackColor = Color.White;
             dataGridView1.DefaultCellStyle.ForeColor = Color.Black;
@@ -104,7 +104,8 @@ namespace QTV.Usercontrol
                     {
                         MessageBox.Show("Xóa môn học thất bại", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
-                } else
+                }
+                else
                 {
                     // Do nothing
                 }
@@ -124,7 +125,7 @@ namespace QTV.Usercontrol
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            if(subjectManagerController.updateOrCreateMonHoc(txtmasv.Text, txthotensv.Text))
+            if (subjectManagerController.updateOrCreateMonHoc(txtmasv.Text, txthotensv.Text))
             {
                 MessageBox.Show("Cập nhật môn học thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 LoadData();
@@ -134,6 +135,10 @@ namespace QTV.Usercontrol
                 MessageBox.Show("Cập nhật môn học thất bại", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

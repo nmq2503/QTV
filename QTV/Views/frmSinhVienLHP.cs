@@ -106,7 +106,12 @@ namespace QTV.Views
 
         private void label1_Click(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void dgvSinhVien_CellClick(object sender, DataGridViewCellEventArgs e)

@@ -57,6 +57,9 @@
             // 
             // txtTenbaithicuthe
             // 
+            txtTenbaithicuthe.BorderColor = Color.White;
+            txtTenbaithicuthe.BorderRadius = 4;
+            txtTenbaithicuthe.BorderThickness = 0;
             txtTenbaithicuthe.Cursor = Cursors.IBeam;
             txtTenbaithicuthe.CustomizableEdges = customizableEdges1;
             txtTenbaithicuthe.DefaultText = "";
@@ -66,16 +69,16 @@
             txtTenbaithicuthe.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtTenbaithicuthe.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtTenbaithicuthe.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtTenbaithicuthe.ForeColor = Color.FromArgb(57, 90, 127);
+            txtTenbaithicuthe.ForeColor = Color.FromArgb(64, 64, 128);
             txtTenbaithicuthe.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtTenbaithicuthe.Location = new Point(42, 43);
-            txtTenbaithicuthe.Margin = new Padding(4, 5, 4, 5);
+            txtTenbaithicuthe.Location = new Point(48, 55);
+            txtTenbaithicuthe.Margin = new Padding(5, 7, 5, 7);
             txtTenbaithicuthe.Name = "txtTenbaithicuthe";
             txtTenbaithicuthe.PasswordChar = '\0';
             txtTenbaithicuthe.PlaceholderText = "";
             txtTenbaithicuthe.SelectedText = "";
             txtTenbaithicuthe.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            txtTenbaithicuthe.Size = new Size(555, 63);
+            txtTenbaithicuthe.Size = new Size(634, 84);
             txtTenbaithicuthe.TabIndex = 1;
             txtTenbaithicuthe.TextAlign = HorizontalAlignment.Center;
             txtTenbaithicuthe.TextChanged += txtTenbaithicuthe_TextChanged;
@@ -84,16 +87,20 @@
             // 
             guna2HtmlLabel5.BackColor = Color.Transparent;
             guna2HtmlLabel5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel5.ForeColor = Color.DimGray;
-            guna2HtmlLabel5.Location = new Point(194, 122);
+            guna2HtmlLabel5.ForeColor = Color.FromArgb(64, 64, 64);
+            guna2HtmlLabel5.Location = new Point(222, 163);
+            guna2HtmlLabel5.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            guna2HtmlLabel5.Size = new Size(33, 23);
+            guna2HtmlLabel5.Size = new Size(40, 30);
             guna2HtmlLabel5.TabIndex = 14;
             guna2HtmlLabel5.Text = "Lớp:";
             guna2HtmlLabel5.Click += guna2HtmlLabel5_Click;
             // 
             // txtLopbaithi
             // 
+            txtLopbaithi.BorderColor = Color.Silver;
+            txtLopbaithi.BorderRadius = 4;
+            txtLopbaithi.BorderThickness = 0;
             txtLopbaithi.Cursor = Cursors.IBeam;
             txtLopbaithi.CustomizableEdges = customizableEdges3;
             txtLopbaithi.DefaultText = "";
@@ -103,21 +110,24 @@
             txtLopbaithi.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtLopbaithi.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtLopbaithi.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtLopbaithi.ForeColor = Color.DimGray;
+            txtLopbaithi.ForeColor = Color.FromArgb(64, 64, 64);
             txtLopbaithi.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtLopbaithi.Location = new Point(235, 113);
-            txtLopbaithi.Margin = new Padding(4);
+            txtLopbaithi.Location = new Point(269, 151);
+            txtLopbaithi.Margin = new Padding(5);
             txtLopbaithi.Name = "txtLopbaithi";
             txtLopbaithi.PasswordChar = '\0';
             txtLopbaithi.PlaceholderText = "";
             txtLopbaithi.SelectedText = "";
             txtLopbaithi.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            txtLopbaithi.Size = new Size(223, 46);
+            txtLopbaithi.Size = new Size(255, 61);
             txtLopbaithi.TabIndex = 13;
             txtLopbaithi.TextAlign = HorizontalAlignment.Center;
             // 
             // txtMotabaithi
             // 
+            txtMotabaithi.BorderColor = Color.Silver;
+            txtMotabaithi.BorderRadius = 4;
+            txtMotabaithi.BorderThickness = 0;
             txtMotabaithi.Cursor = Cursors.IBeam;
             txtMotabaithi.CustomizableEdges = customizableEdges5;
             txtMotabaithi.DefaultText = "";
@@ -127,19 +137,23 @@
             txtMotabaithi.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtMotabaithi.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtMotabaithi.Font = new Font("Segoe UI Semilight", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtMotabaithi.ForeColor = Color.DimGray;
+            txtMotabaithi.ForeColor = Color.FromArgb(64, 64, 64);
             txtMotabaithi.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtMotabaithi.Location = new Point(42, 167);
+            txtMotabaithi.Location = new Point(48, 223);
+            txtMotabaithi.Margin = new Padding(3, 5, 3, 5);
             txtMotabaithi.Name = "txtMotabaithi";
             txtMotabaithi.PasswordChar = '\0';
             txtMotabaithi.PlaceholderText = "";
             txtMotabaithi.SelectedText = "";
             txtMotabaithi.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            txtMotabaithi.Size = new Size(555, 72);
+            txtMotabaithi.Size = new Size(634, 96);
             txtMotabaithi.TabIndex = 15;
             // 
             // txtSocauhoi
             // 
+            txtSocauhoi.BorderColor = Color.Silver;
+            txtSocauhoi.BorderRadius = 4;
+            txtSocauhoi.BorderThickness = 0;
             txtSocauhoi.Cursor = Cursors.IBeam;
             txtSocauhoi.CustomizableEdges = customizableEdges7;
             txtSocauhoi.DefaultText = "";
@@ -149,16 +163,16 @@
             txtSocauhoi.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtSocauhoi.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtSocauhoi.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtSocauhoi.ForeColor = Color.DimGray;
+            txtSocauhoi.ForeColor = Color.FromArgb(64, 64, 64);
             txtSocauhoi.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtSocauhoi.Location = new Point(182, 261);
-            txtSocauhoi.Margin = new Padding(4);
+            txtSocauhoi.Location = new Point(208, 348);
+            txtSocauhoi.Margin = new Padding(5);
             txtSocauhoi.Name = "txtSocauhoi";
             txtSocauhoi.PasswordChar = '\0';
             txtSocauhoi.PlaceholderText = "";
             txtSocauhoi.SelectedText = "";
             txtSocauhoi.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            txtSocauhoi.Size = new Size(415, 43);
+            txtSocauhoi.Size = new Size(474, 57);
             txtSocauhoi.TabIndex = 16;
             txtSocauhoi.TextChanged += txtSocauhoi_TextChanged;
             // 
@@ -166,10 +180,11 @@
             // 
             guna2HtmlLabel1.BackColor = Color.Transparent;
             guna2HtmlLabel1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel1.ForeColor = Color.DimGray;
-            guna2HtmlLabel1.Location = new Point(42, 268);
+            guna2HtmlLabel1.ForeColor = Color.FromArgb(64, 64, 64);
+            guna2HtmlLabel1.Location = new Point(48, 357);
+            guna2HtmlLabel1.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(123, 23);
+            guna2HtmlLabel1.Size = new Size(153, 30);
             guna2HtmlLabel1.TabIndex = 17;
             guna2HtmlLabel1.Text = "Thời gian diễn ra:";
             // 
@@ -177,15 +192,19 @@
             // 
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel2.ForeColor = Color.DimGray;
-            guna2HtmlLabel2.Location = new Point(42, 329);
+            guna2HtmlLabel2.ForeColor = Color.FromArgb(64, 64, 64);
+            guna2HtmlLabel2.Location = new Point(48, 439);
+            guna2HtmlLabel2.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(126, 23);
+            guna2HtmlLabel2.Size = new Size(157, 30);
             guna2HtmlLabel2.TabIndex = 18;
             guna2HtmlLabel2.Text = "Thời gian làm bài:";
             // 
             // guna2TextBox1
             // 
+            guna2TextBox1.BorderColor = Color.Silver;
+            guna2TextBox1.BorderRadius = 4;
+            guna2TextBox1.BorderThickness = 0;
             guna2TextBox1.Cursor = Cursors.IBeam;
             guna2TextBox1.CustomizableEdges = customizableEdges9;
             guna2TextBox1.DefaultText = "";
@@ -195,21 +214,25 @@
             guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2TextBox1.ForeColor = Color.DimGray;
+            guna2TextBox1.ForeColor = Color.Maroon;
             guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(182, 322);
-            guna2TextBox1.Margin = new Padding(4);
+            guna2TextBox1.Location = new Point(208, 429);
+            guna2TextBox1.Margin = new Padding(5);
             guna2TextBox1.Name = "guna2TextBox1";
             guna2TextBox1.PasswordChar = '\0';
+            guna2TextBox1.PlaceholderForeColor = Color.Maroon;
             guna2TextBox1.PlaceholderText = "";
             guna2TextBox1.SelectedText = "";
             guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2TextBox1.Size = new Size(415, 43);
+            guna2TextBox1.Size = new Size(474, 57);
             guna2TextBox1.TabIndex = 19;
             guna2TextBox1.TextChanged += guna2TextBox1_TextChanged;
             // 
             // guna2TextBox2
             // 
+            guna2TextBox2.BorderColor = Color.Silver;
+            guna2TextBox2.BorderRadius = 4;
+            guna2TextBox2.BorderThickness = 0;
             guna2TextBox2.Cursor = Cursors.IBeam;
             guna2TextBox2.CustomizableEdges = customizableEdges11;
             guna2TextBox2.DefaultText = "";
@@ -219,26 +242,27 @@
             guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2TextBox2.ForeColor = Color.DimGray;
+            guna2TextBox2.ForeColor = Color.Red;
             guna2TextBox2.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Location = new Point(116, 382);
-            guna2TextBox2.Margin = new Padding(4);
+            guna2TextBox2.Location = new Point(133, 501);
+            guna2TextBox2.Margin = new Padding(5);
             guna2TextBox2.Name = "guna2TextBox2";
             guna2TextBox2.PasswordChar = '\0';
             guna2TextBox2.PlaceholderText = "";
             guna2TextBox2.SelectedText = "";
             guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2TextBox2.Size = new Size(480, 38);
+            guna2TextBox2.Size = new Size(549, 51);
             guna2TextBox2.TabIndex = 20;
             // 
             // guna2HtmlLabel3
             // 
             guna2HtmlLabel3.BackColor = Color.Transparent;
             guna2HtmlLabel3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2HtmlLabel3.ForeColor = Color.DimGray;
-            guna2HtmlLabel3.Location = new Point(42, 382);
+            guna2HtmlLabel3.ForeColor = Color.FromArgb(64, 64, 64);
+            guna2HtmlLabel3.Location = new Point(48, 509);
+            guna2HtmlLabel3.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(63, 23);
+            guna2HtmlLabel3.Size = new Size(78, 30);
             guna2HtmlLabel3.TabIndex = 21;
             guna2HtmlLabel3.Text = "Điểm số:";
             // 
@@ -250,25 +274,25 @@
             guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.FillColor = Color.FromArgb(57, 90, 127);
-            guna2Button1.FocusedColor = Color.FromArgb(50, 80, 115);
+            guna2Button1.FillColor = Color.FromArgb(64, 64, 128);
             guna2Button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2Button1.ForeColor = Color.White;
             guna2Button1.HoverState.FillColor = Color.FromArgb(50, 80, 115);
-            guna2Button1.Location = new Point(214, 467);
+            guna2Button1.Location = new Point(245, 623);
+            guna2Button1.Margin = new Padding(3, 4, 3, 4);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2Button1.Size = new Size(206, 48);
+            guna2Button1.Size = new Size(235, 64);
             guna2Button1.TabIndex = 22;
             guna2Button1.Text = "Xem chi tiết bài làm";
             guna2Button1.Click += guna2Button1_Click;
             // 
             // BaithidaKTcuthe
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(641, 553);
+            ClientSize = new Size(733, 737);
             Controls.Add(guna2Button1);
             Controls.Add(guna2HtmlLabel3);
             Controls.Add(guna2TextBox2);
@@ -281,6 +305,7 @@
             Controls.Add(txtLopbaithi);
             Controls.Add(txtTenbaithicuthe);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "BaithidaKTcuthe";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "BaithidaKTcuthe";

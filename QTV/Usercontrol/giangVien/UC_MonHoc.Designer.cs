@@ -43,11 +43,11 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.FromArgb(64, 64, 64);
-            label1.Location = new Point(54, 106);
+            label1.ForeColor = Color.FromArgb(64, 64, 128);
+            label1.Location = new Point(62, 141);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(103, 30);
+            label1.Size = new Size(129, 37);
             label1.TabIndex = 20;
             label1.Text = "Môn học";
             // 
@@ -55,19 +55,21 @@
             // 
             guna2Panel1.Controls.Add(flpMonHoc);
             guna2Panel1.CustomizableEdges = customizableEdges1;
-            guna2Panel1.Location = new Point(54, 154);
+            guna2Panel1.Location = new Point(62, 205);
+            guna2Panel1.Margin = new Padding(3, 4, 3, 4);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Panel1.Size = new Size(1386, 265);
+            guna2Panel1.Size = new Size(1584, 353);
             guna2Panel1.TabIndex = 21;
             // 
             // flpMonHoc
             // 
             flpMonHoc.AutoScroll = true;
             flpMonHoc.Dock = DockStyle.Bottom;
-            flpMonHoc.Location = new Point(0, 40);
+            flpMonHoc.Location = new Point(0, 53);
+            flpMonHoc.Margin = new Padding(3, 4, 3, 4);
             flpMonHoc.Name = "flpMonHoc";
-            flpMonHoc.Size = new Size(1386, 225);
+            flpMonHoc.Size = new Size(1584, 300);
             flpMonHoc.TabIndex = 0;
             flpMonHoc.WrapContents = false;
             // 
@@ -78,22 +80,23 @@
             mainPanel.CustomizableEdges = customizableEdges3;
             mainPanel.Dock = DockStyle.Fill;
             mainPanel.Location = new Point(0, 0);
+            mainPanel.Margin = new Padding(3, 4, 3, 4);
             mainPanel.Name = "mainPanel";
             mainPanel.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            mainPanel.Size = new Size(1221, 670);
+            mainPanel.Size = new Size(1395, 893);
             mainPanel.TabIndex = 22;
             // 
             // UC_MonHoc
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             Controls.Add(guna2Panel1);
             Controls.Add(label1);
             Controls.Add(mainPanel);
-            Margin = new Padding(2);
+            Margin = new Padding(2, 3, 2, 3);
             Name = "UC_MonHoc";
-            Size = new Size(1221, 670);
+            Size = new Size(1395, 893);
             guna2Panel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();

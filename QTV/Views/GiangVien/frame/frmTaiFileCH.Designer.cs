@@ -79,11 +79,11 @@
             gbContainer.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             gbContainer.ForeColor = Color.FromArgb(64, 64, 64);
             gbContainer.Location = new Point(0, 0);
-            gbContainer.Margin = new Padding(2);
+            gbContainer.Margin = new Padding(2, 3, 2, 3);
             gbContainer.Name = "gbContainer";
-            gbContainer.Padding = new Padding(131, 112, 131, 112);
+            gbContainer.Padding = new Padding(150, 149, 150, 149);
             gbContainer.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            gbContainer.Size = new Size(696, 618);
+            gbContainer.Size = new Size(795, 824);
             gbContainer.TabIndex = 7;
             gbContainer.Text = "Tải lên file câu hỏi";
             // 
@@ -93,46 +93,47 @@
             dataGridViewCellStyle1.BackColor = Color.White;
             dataGridViewCellStyle1.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dataGridViewCellStyle1.ForeColor = SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle1.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(182, 182, 218);
+            dataGridViewCellStyle1.SelectionForeColor = Color.Black;
             dataGridViewDanhSachCauHoi.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewDanhSachCauHoi.CellBorderStyle = DataGridViewCellBorderStyle.None;
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(64, 64, 128);
             dataGridViewCellStyle2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             dataGridViewCellStyle2.ForeColor = Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(64, 64, 128);
             dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
             dataGridViewDanhSachCauHoi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            dataGridViewDanhSachCauHoi.ColumnHeadersHeight = 22;
+            dataGridViewDanhSachCauHoi.ColumnHeadersHeight = 28;
             dataGridViewDanhSachCauHoi.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dataGridViewDanhSachCauHoi.Columns.AddRange(new DataGridViewColumn[] { STT, Column2, Column3, Column4, Column5, Column6, Column7, Column8, Column9 });
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = Color.FromArgb(128, 255, 128);
+            dataGridViewCellStyle3.BackColor = Color.White;
             dataGridViewCellStyle3.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle3.ForeColor = Color.FromArgb(64, 64, 64);
-            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle3.ForeColor = Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(182, 182, 218);
+            dataGridViewCellStyle3.SelectionForeColor = Color.Black;
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
             dataGridViewDanhSachCauHoi.DefaultCellStyle = dataGridViewCellStyle3;
             dataGridViewDanhSachCauHoi.Dock = DockStyle.Bottom;
             dataGridViewDanhSachCauHoi.GridColor = Color.FromArgb(231, 229, 255);
-            dataGridViewDanhSachCauHoi.Location = new Point(131, 300);
-            dataGridViewDanhSachCauHoi.Margin = new Padding(2);
+            dataGridViewDanhSachCauHoi.Location = new Point(150, 400);
+            dataGridViewDanhSachCauHoi.Margin = new Padding(2, 3, 2, 3);
             dataGridViewDanhSachCauHoi.Name = "dataGridViewDanhSachCauHoi";
             dataGridViewDanhSachCauHoi.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = Color.FromArgb(128, 255, 128);
+            dataGridViewCellStyle4.BackColor = Color.White;
             dataGridViewCellStyle4.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dataGridViewCellStyle4.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(128, 255, 128);
+            dataGridViewCellStyle4.SelectionBackColor = Color.White;
             dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
             dataGridViewDanhSachCauHoi.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             dataGridViewDanhSachCauHoi.RowHeadersVisible = false;
             dataGridViewDanhSachCauHoi.RowHeadersWidth = 62;
-            dataGridViewDanhSachCauHoi.RowTemplate.Height = 28;
-            dataGridViewDanhSachCauHoi.Size = new Size(434, 206);
+            dataGridViewDanhSachCauHoi.RowTemplate.Height = 23;
+            dataGridViewDanhSachCauHoi.Size = new Size(495, 275);
             dataGridViewDanhSachCauHoi.TabIndex = 13;
             dataGridViewDanhSachCauHoi.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             dataGridViewDanhSachCauHoi.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -146,13 +147,13 @@
             dataGridViewDanhSachCauHoi.ThemeStyle.HeaderStyle.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dataGridViewDanhSachCauHoi.ThemeStyle.HeaderStyle.ForeColor = Color.White;
             dataGridViewDanhSachCauHoi.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewDanhSachCauHoi.ThemeStyle.HeaderStyle.Height = 22;
+            dataGridViewDanhSachCauHoi.ThemeStyle.HeaderStyle.Height = 28;
             dataGridViewDanhSachCauHoi.ThemeStyle.ReadOnly = false;
             dataGridViewDanhSachCauHoi.ThemeStyle.RowsStyle.BackColor = Color.White;
             dataGridViewDanhSachCauHoi.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
             dataGridViewDanhSachCauHoi.ThemeStyle.RowsStyle.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dataGridViewDanhSachCauHoi.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewDanhSachCauHoi.ThemeStyle.RowsStyle.Height = 28;
+            dataGridViewDanhSachCauHoi.ThemeStyle.RowsStyle.Height = 23;
             dataGridViewDanhSachCauHoi.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             dataGridViewDanhSachCauHoi.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
             // 
@@ -163,7 +164,7 @@
             STT.MinimumWidth = 8;
             STT.Name = "STT";
             STT.Resizable = DataGridViewTriState.True;
-            STT.Width = 102;
+            STT.Width = 123;
             // 
             // Column2
             // 
@@ -216,7 +217,7 @@
             Column9.Name = "Column9";
             Column9.Resizable = DataGridViewTriState.True;
             Column9.SortMode = DataGridViewColumnSortMode.Automatic;
-            Column9.Width = 20;
+            Column9.Width = 23;
             // 
             // mainContainer
             // 
@@ -228,12 +229,12 @@
             mainContainer.Controls.Add(label1);
             mainContainer.Controls.Add(btnTaiFile);
             mainContainer.CustomizableEdges = customizableEdges2;
-            mainContainer.Location = new Point(133, 62);
-            mainContainer.Margin = new Padding(2);
+            mainContainer.Location = new Point(152, 83);
+            mainContainer.Margin = new Padding(2, 3, 2, 3);
             mainContainer.Name = "mainContainer";
-            mainContainer.Padding = new Padding(30);
+            mainContainer.Padding = new Padding(34, 40, 34, 40);
             mainContainer.ShadowDecoration.CustomizableEdges = customizableEdges3;
-            mainContainer.Size = new Size(430, 152);
+            mainContainer.Size = new Size(491, 203);
             mainContainer.TabIndex = 12;
             // 
             // label1
@@ -242,10 +243,10 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.DimGray;
-            label1.Location = new Point(118, 113);
+            label1.Location = new Point(135, 151);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(193, 21);
+            label1.Size = new Size(242, 28);
             label1.TabIndex = 1;
             label1.Text = "Chọn file câu hỏi để tải lên";
             // 
@@ -264,17 +265,17 @@
             btnTaiFile.HoverState.BorderColor = Color.White;
             btnTaiFile.HoverState.FillColor = Color.White;
             btnTaiFile.HoverState.ForeColor = Color.White;
-            btnTaiFile.Image = QTV.Properties.Resources.cloud_computing__1_;
+            btnTaiFile.Image = QTV.Properties.Resources.cloud_computing;
             btnTaiFile.ImageSize = new Size(60, 60);
-            btnTaiFile.Location = new Point(30, 30);
-            btnTaiFile.Margin = new Padding(2);
+            btnTaiFile.Location = new Point(34, 40);
+            btnTaiFile.Margin = new Padding(2, 3, 2, 3);
             btnTaiFile.Name = "btnTaiFile";
             btnTaiFile.PressedColor = Color.White;
             btnTaiFile.ShadowDecoration.BorderRadius = 0;
             btnTaiFile.ShadowDecoration.Color = Color.Transparent;
             btnTaiFile.ShadowDecoration.CustomizableEdges = customizableEdges1;
             btnTaiFile.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            btnTaiFile.Size = new Size(370, 75);
+            btnTaiFile.Size = new Size(423, 100);
             btnTaiFile.TabIndex = 0;
             btnTaiFile.Click += btnTaiFile_Click;
             // 
@@ -286,15 +287,15 @@
             btnLuuFile.DisabledState.CustomBorderColor = Color.DarkGray;
             btnLuuFile.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnLuuFile.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnLuuFile.FillColor = Color.FromArgb(57, 90, 127);
+            btnLuuFile.FillColor = Color.FromArgb(64, 64, 128);
             btnLuuFile.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnLuuFile.ForeColor = Color.White;
             btnLuuFile.Image = QTV.Properties.Resources.upload__1_1;
-            btnLuuFile.Location = new Point(282, 240);
-            btnLuuFile.Margin = new Padding(2);
+            btnLuuFile.Location = new Point(322, 320);
+            btnLuuFile.Margin = new Padding(2, 3, 2, 3);
             btnLuuFile.Name = "btnLuuFile";
             btnLuuFile.ShadowDecoration.CustomizableEdges = customizableEdges5;
-            btnLuuFile.Size = new Size(134, 37);
+            btnLuuFile.Size = new Size(153, 49);
             btnLuuFile.TabIndex = 11;
             btnLuuFile.Text = "Lưu file câu hỏi";
             btnLuuFile.Click += btnLuuFile_Click;
@@ -302,12 +303,12 @@
             // guna2CirclePictureBox2
             // 
             guna2CirclePictureBox2.ImageRotate = 0F;
-            guna2CirclePictureBox2.Location = new Point(54, 74);
-            guna2CirclePictureBox2.Margin = new Padding(2);
+            guna2CirclePictureBox2.Location = new Point(62, 99);
+            guna2CirclePictureBox2.Margin = new Padding(2, 3, 2, 3);
             guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
             guna2CirclePictureBox2.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            guna2CirclePictureBox2.Size = new Size(7, 6);
+            guna2CirclePictureBox2.Size = new Size(8, 8);
             guna2CirclePictureBox2.TabIndex = 2;
             guna2CirclePictureBox2.TabStop = false;
             // 
@@ -317,21 +318,21 @@
             label20.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label20.ForeColor = Color.Gray;
             label20.ImageAlign = ContentAlignment.BottomLeft;
-            label20.Location = new Point(193, 218);
+            label20.Location = new Point(221, 291);
             label20.Margin = new Padding(2, 0, 2, 0);
             label20.Name = "label20";
-            label20.Size = new Size(0, 19);
+            label20.Size = new Size(0, 23);
             label20.TabIndex = 0;
             // 
             // frmTaiFileCH
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(696, 618);
+            ClientSize = new Size(795, 824);
             Controls.Add(gbContainer);
             FormBorderStyle = FormBorderStyle.FixedDialog;
-            Margin = new Padding(2);
+            Margin = new Padding(2, 3, 2, 3);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "frmTaiFileCH";

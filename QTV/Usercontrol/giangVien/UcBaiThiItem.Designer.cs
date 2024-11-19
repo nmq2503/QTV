@@ -65,7 +65,8 @@
             // lblTGThi
             // 
             lblTGThi.BackColor = Color.Transparent;
-            lblTGThi.Location = new Point(118, 224);
+            lblTGThi.ForeColor = Color.FromArgb(64, 64, 64);
+            lblTGThi.Location = new Point(155, 225);
             lblTGThi.Name = "lblTGThi";
             lblTGThi.Size = new Size(137, 22);
             lblTGThi.TabIndex = 8;
@@ -74,6 +75,7 @@
             // lblTenBaiThi
             // 
             lblTenBaiThi.BackColor = Color.Transparent;
+            lblTenBaiThi.ForeColor = Color.FromArgb(64, 64, 64);
             lblTenBaiThi.Location = new Point(118, 187);
             lblTenBaiThi.Name = "lblTenBaiThi";
             lblTenBaiThi.Size = new Size(28, 22);
@@ -104,9 +106,9 @@
             LabelTGThi.Location = new Point(15, 225);
             LabelTGThi.Margin = new Padding(2, 0, 2, 0);
             LabelTGThi.Name = "LabelTGThi";
-            LabelTGThi.Size = new Size(101, 20);
+            LabelTGThi.Size = new Size(135, 20);
             LabelTGThi.TabIndex = 3;
-            LabelTGThi.Text = "Thời gian thi:";
+            LabelTGThi.Text = "Thời gian bắt đầu:";
             // 
             // LabelTenBaiThi
             // 

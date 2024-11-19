@@ -132,5 +132,10 @@ namespace QuanLyTracNghiem
             frmPhanquyen phanquyen = new frmPhanquyen();
             phanquyen.Show();
         }
+
+        private void chkboxnhomatkhau_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

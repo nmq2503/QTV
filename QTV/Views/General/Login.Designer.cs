@@ -75,17 +75,19 @@
             guna2Panel1.CustomizableEdges = customizableEdges17;
             guna2Panel1.Dock = DockStyle.Fill;
             guna2Panel1.Location = new Point(0, 0);
+            guna2Panel1.Margin = new Padding(3, 4, 3, 4);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.BorderRadius = 0;
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges18;
             guna2Panel1.ShadowDecoration.Shadow = new Padding(20);
-            guna2Panel1.Size = new Size(986, 490);
+            guna2Panel1.Size = new Size(1127, 653);
             guna2Panel1.TabIndex = 0;
             guna2Panel1.UseTransparentBackground = true;
             // 
             // mainPanel
             // 
             mainPanel.Anchor = AnchorStyles.None;
+            mainPanel.BorderRadius = 6;
             mainPanel.Controls.Add(img);
             mainPanel.Controls.Add(guna2ImageCheckBox2);
             mainPanel.Controls.Add(buttChonVaiTro);
@@ -95,13 +97,14 @@
             mainPanel.Controls.Add(txtmatkhau);
             mainPanel.Controls.Add(guna2TextBox4);
             mainPanel.Controls.Add(chkboxnhomatkhau);
+            mainPanel.CustomBorderColor = Color.FromArgb(64, 64, 128);
+            mainPanel.CustomBorderThickness = new Padding(3);
             mainPanel.CustomizableEdges = customizableEdges15;
             mainPanel.Location = new Point(0, 0);
-            mainPanel.Margin = new Padding(3, 2, 3, 2);
             mainPanel.Name = "mainPanel";
-            mainPanel.Padding = new Padding(9, 11, 9, 11);
+            mainPanel.Padding = new Padding(10, 15, 10, 15);
             mainPanel.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            mainPanel.Size = new Size(368, 435);
+            mainPanel.Size = new Size(421, 580);
             mainPanel.TabIndex = 12;
             // 
             // img
@@ -109,10 +112,11 @@
             img.CustomizableEdges = customizableEdges1;
             img.Image = (Image)resources.GetObject("img.Image");
             img.ImageRotate = 0F;
-            img.Location = new Point(110, 14);
+            img.Location = new Point(126, 19);
+            img.Margin = new Padding(3, 4, 3, 4);
             img.Name = "img";
             img.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            img.Size = new Size(140, 112);
+            img.Size = new Size(160, 149);
             img.SizeMode = PictureBoxSizeMode.StretchImage;
             img.TabIndex = 1;
             img.TabStop = false;
@@ -125,11 +129,11 @@
             guna2ImageCheckBox2.ImageOffset = new Point(0, 0);
             guna2ImageCheckBox2.ImageRotate = 0F;
             guna2ImageCheckBox2.ImageSize = new Size(28, 28);
-            guna2ImageCheckBox2.Location = new Point(302, 248);
+            guna2ImageCheckBox2.Location = new Point(345, 331);
             guna2ImageCheckBox2.Margin = new Padding(0);
             guna2ImageCheckBox2.Name = "guna2ImageCheckBox2";
             guna2ImageCheckBox2.ShadowDecoration.CustomizableEdges = customizableEdges3;
-            guna2ImageCheckBox2.Size = new Size(35, 30);
+            guna2ImageCheckBox2.Size = new Size(40, 40);
             guna2ImageCheckBox2.TabIndex = 9;
             // 
             // buttChonVaiTro
@@ -140,13 +144,14 @@
             buttChonVaiTro.DisabledState.CustomBorderColor = Color.DarkGray;
             buttChonVaiTro.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             buttChonVaiTro.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            buttChonVaiTro.FillColor = Color.FromArgb(57, 90, 127);
+            buttChonVaiTro.FillColor = Color.FromArgb(64, 64, 128);
             buttChonVaiTro.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttChonVaiTro.ForeColor = Color.White;
-            buttChonVaiTro.Location = new Point(101, 383);
+            buttChonVaiTro.Location = new Point(117, 511);
+            buttChonVaiTro.Margin = new Padding(3, 4, 3, 4);
             buttChonVaiTro.Name = "buttChonVaiTro";
             buttChonVaiTro.ShadowDecoration.CustomizableEdges = customizableEdges5;
-            buttChonVaiTro.Size = new Size(158, 38);
+            buttChonVaiTro.Size = new Size(181, 51);
             buttChonVaiTro.TabIndex = 11;
             buttChonVaiTro.Text = "Chọn vai trò";
             buttChonVaiTro.Click += guna2Button1_Click;
@@ -158,10 +163,10 @@
             title.BackColor = Color.Transparent;
             title.Font = new Font("Calibri", 21F, FontStyle.Bold);
             title.ForeColor = Color.FromArgb(64, 64, 64);
-            title.Location = new Point(110, 145);
-            title.Margin = new Padding(3, 15, 3, 8);
+            title.Location = new Point(126, 193);
+            title.Margin = new Padding(3, 20, 3, 11);
             title.Name = "title";
-            title.Size = new Size(128, 37);
+            title.Size = new Size(160, 44);
             title.TabIndex = 8;
             title.Tag = "";
             title.Text = "Đăng nhập ";
@@ -175,13 +180,14 @@
             buttdangnhap.DisabledState.CustomBorderColor = Color.DarkGray;
             buttdangnhap.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             buttdangnhap.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            buttdangnhap.FillColor = Color.FromArgb(57, 90, 127);
+            buttdangnhap.FillColor = Color.FromArgb(64, 64, 128);
             buttdangnhap.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttdangnhap.ForeColor = Color.White;
-            buttdangnhap.Location = new Point(101, 340);
+            buttdangnhap.Location = new Point(118, 453);
+            buttdangnhap.Margin = new Padding(3, 4, 3, 4);
             buttdangnhap.Name = "buttdangnhap";
             buttdangnhap.ShadowDecoration.CustomizableEdges = customizableEdges7;
-            buttdangnhap.Size = new Size(158, 38);
+            buttdangnhap.Size = new Size(181, 51);
             buttdangnhap.TabIndex = 10;
             buttdangnhap.Text = "Đăng nhập";
             buttdangnhap.Click += buttdangnhap_Click;
@@ -197,18 +203,19 @@
             txttaikhoan.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txttaikhoan.FocusedState.BorderColor = Color.FromArgb(57, 90, 127);
             txttaikhoan.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txttaikhoan.ForeColor = Color.FromArgb(205, 205, 205);
+            txttaikhoan.ForeColor = Color.Black;
             txttaikhoan.HoverState.BorderColor = Color.FromArgb(57, 90, 127);
             txttaikhoan.IconLeft = (Image)resources.GetObject("txttaikhoan.IconLeft");
             txttaikhoan.IconLeftSize = new Size(30, 30);
-            txttaikhoan.Location = new Point(12, 190);
-            txttaikhoan.Margin = new Padding(4, 4, 4, 4);
+            txttaikhoan.Location = new Point(14, 253);
+            txttaikhoan.Margin = new Padding(5);
             txttaikhoan.Name = "txttaikhoan";
             txttaikhoan.PasswordChar = '\0';
+            txttaikhoan.PlaceholderForeColor = Color.DarkGray;
             txttaikhoan.PlaceholderText = "Mã người dùng";
             txttaikhoan.SelectedText = "";
             txttaikhoan.ShadowDecoration.CustomizableEdges = customizableEdges9;
-            txttaikhoan.Size = new Size(332, 44);
+            txttaikhoan.Size = new Size(379, 59);
             txttaikhoan.TabIndex = 4;
             txttaikhoan.TextChanged += txttaikhoan_TextChanged;
             // 
@@ -223,18 +230,19 @@
             txtmatkhau.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtmatkhau.FocusedState.BorderColor = Color.FromArgb(57, 90, 127);
             txtmatkhau.Font = new Font("Segoe UI", 10F);
-            txtmatkhau.ForeColor = Color.FromArgb(205, 205, 205);
+            txtmatkhau.ForeColor = Color.Black;
             txtmatkhau.HoverState.BorderColor = Color.FromArgb(57, 90, 127);
             txtmatkhau.IconLeft = (Image)resources.GetObject("txtmatkhau.IconLeft");
             txtmatkhau.IconLeftSize = new Size(30, 30);
-            txtmatkhau.Location = new Point(12, 241);
-            txtmatkhau.Margin = new Padding(4, 4, 4, 11);
+            txtmatkhau.Location = new Point(14, 321);
+            txtmatkhau.Margin = new Padding(5, 5, 5, 15);
             txtmatkhau.Name = "txtmatkhau";
             txtmatkhau.PasswordChar = '\0';
+            txtmatkhau.PlaceholderForeColor = Color.DarkGray;
             txtmatkhau.PlaceholderText = "Mật khẩu";
             txtmatkhau.SelectedText = "";
             txtmatkhau.ShadowDecoration.CustomizableEdges = customizableEdges11;
-            txtmatkhau.Size = new Size(332, 44);
+            txtmatkhau.Size = new Size(379, 59);
             txtmatkhau.TabIndex = 5;
             // 
             // guna2TextBox4
@@ -252,14 +260,14 @@
             guna2TextBox4.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2TextBox4.ForeColor = Color.FromArgb(64, 64, 64);
             guna2TextBox4.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox4.Location = new Point(39, 298);
-            guna2TextBox4.Margin = new Padding(4, 4, 4, 4);
+            guna2TextBox4.Location = new Point(45, 397);
+            guna2TextBox4.Margin = new Padding(5);
             guna2TextBox4.Name = "guna2TextBox4";
             guna2TextBox4.PasswordChar = '\0';
             guna2TextBox4.PlaceholderText = "";
             guna2TextBox4.SelectedText = "";
             guna2TextBox4.ShadowDecoration.CustomizableEdges = customizableEdges13;
-            guna2TextBox4.Size = new Size(146, 22);
+            guna2TextBox4.Size = new Size(167, 29);
             guna2TextBox4.TabIndex = 6;
             // 
             // chkboxnhomatkhau
@@ -269,20 +277,23 @@
             chkboxnhomatkhau.Image = (Image)resources.GetObject("chkboxnhomatkhau.Image");
             chkboxnhomatkhau.ImageOffset = new Point(0, 0);
             chkboxnhomatkhau.ImageRotate = 0F;
-            chkboxnhomatkhau.Location = new Point(17, 298);
+            chkboxnhomatkhau.Location = new Point(19, 397);
+            chkboxnhomatkhau.Margin = new Padding(3, 4, 3, 4);
             chkboxnhomatkhau.Name = "chkboxnhomatkhau";
             chkboxnhomatkhau.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            chkboxnhomatkhau.Size = new Size(21, 22);
+            chkboxnhomatkhau.Size = new Size(24, 29);
             chkboxnhomatkhau.TabIndex = 7;
+            chkboxnhomatkhau.CheckedChanged += chkboxnhomatkhau_CheckedChanged;
             // 
             // FrmLogin
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(986, 490);
+            ClientSize = new Size(1127, 653);
             Controls.Add(guna2Panel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FrmLogin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Đăng nhập";
