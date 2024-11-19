@@ -47,7 +47,7 @@
             guna2TextBox1.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2TextBox1.ForeColor = Color.FromArgb(140, 140, 140);
             guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(106, 119);
+            guna2TextBox1.Location = new Point(129, 154);
             guna2TextBox1.Margin = new Padding(5);
             guna2TextBox1.Name = "guna2TextBox1";
             guna2TextBox1.PasswordChar = '\0';

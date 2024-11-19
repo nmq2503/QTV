@@ -142,11 +142,17 @@
   <data name="background-6055791_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background-6055791_6405.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pen (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pen (4)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="art-6812247_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\art-6812247_6402.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="document (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\document (5)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="plus (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plus (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,14 +169,17 @@
   <data name="abstract-6655422_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\abstract-6655422_640.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="t2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\t2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="trash" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\trash.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="art-7008029_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\art-7008029_6402.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cross-circle (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross-circle (3)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="p2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\p2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="abstract-6655422_6401" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\abstract-6655422_6401.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,6 +193,9 @@
   <data name="top (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\top (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="check-circle (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check-circle (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="art-7065738_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\art-7065738_6404.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -193,20 +205,32 @@
   <data name="file-edit (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\file-edit (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="filter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filter1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cloud-computing (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cloud-computing (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="background-6055853_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background-6055853_6401.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="file-edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file-edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cu2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\circle-user (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="background-6490417_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background-6490417_640.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="background-7037896_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background-7037896_640.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trash (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="art-7008029_6401" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\art-7008029_6403.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,6 +244,9 @@
   <data name="background-7009746_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background-7009746_6402.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="trash (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="upload (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\upload (1)3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -229,14 +256,17 @@
   <data name="plus (2)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plus (2)4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="filter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\filter1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="background-6906321_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background-6906321_640.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\circle-user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pen (4)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pen (4)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloud-computing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloud-computing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="plus (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plus (2)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,14 +274,20 @@
   <data name="st-patricks-day-6640368_1920" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\st-patricks-day-6640368_1920.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="search (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="background-6655444_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background-6655444_6406.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="abstract-6284460_1920" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\abstract-6284460_19201.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="check-circle (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\check-circle (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cross-circle (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross-circle (3)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="background-6055795_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background-6055795_6401.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -262,7 +298,10 @@
   <data name="background-6906321_6401" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background-6906321_6401.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="document (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\document (5)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="trash (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HDSD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HDSD.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

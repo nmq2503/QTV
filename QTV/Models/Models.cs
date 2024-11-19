@@ -92,13 +92,13 @@ namespace QTV.Models
         [Required, StringLength(256)]
         public string TenLHP { get; set; }
 
-        public int GiangVien_id { get; set; }
-        public int MonHoc_id { get; set; }
+        public string MaGV { get; set; }
+        public string MaMon { get; set; }
 
-        [ForeignKey("GiangVien_id")]
+        [ForeignKey("MaGV")]
         public virtual GiangVien GiangVien { get; set; }
 
-        [ForeignKey("MonHoc_id")]
+        [ForeignKey("MaMon")]
         public virtual MonHoc MonHoc { get; set; }
 
         public virtual ICollection<BaiThi> BaiThis { get; set; }
@@ -282,6 +282,8 @@ namespace QTV.Models
         public int XemLai { get; set; }
         public int XaoTron { get; set; }
 
+        public int SoCauHoi { get; set; }
+
         [ForeignKey("GiangVien_id")]
         public virtual GiangVien GiangVien { get; set; }
         
@@ -308,25 +310,25 @@ namespace QTV.Models
         [Required, StringLength(50)]
         public string MaBaiLam { get; set; }
 
-        public int SinhVien_id { get; set; }
-        public int BaiThi_id { get; set; }
+        public string MaSV { get; set; }
+        public string MaBaiThi { get; set; }
 
         public DateTime BatDau { get; set; } = DateTime.Now;
         public DateTime? KetThuc { get; set; }
 
-        public int TrangThai_id { get; set; }
+        public string MaTrangThai { get; set; }
         public short SoCauNop { get; set; }
         public short SoCauDung { get; set; }
         public short SoCauSai { get; set; }
         public float Diem { get; set; }
 
-        [ForeignKey("SinhVien_id")]
+        [ForeignKey("MaSinhVien")]
         public virtual SinhVien SinhVien { get; set; }
 
-        [ForeignKey("BaiThi_id")]
+        [ForeignKey("MaBaiThi")]
         public virtual BaiThi BaiThi { get; set; }
 
-        [ForeignKey("TrangThai_id")]
+        [ForeignKey("MaTrangThai")]
         public virtual TrangThai TrangThai { get; set; }
     }
 

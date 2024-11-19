@@ -161,7 +161,7 @@ namespace QTV.Usercontrol
         public void dataGridView1_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
             // Đặt màu cho header
-            dataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(50, 80, 115);
+            dataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(64,64,128);
             dataGridView1.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
             dataGridView1.EnableHeadersVisualStyles = false;
 

@@ -94,10 +94,10 @@
             centerPanel.Controls.Add(txtTenBaiThi);
             centerPanel.CustomizableEdges = customizableEdges21;
             centerPanel.Location = new Point(1, 2);
-            centerPanel.Margin = new Padding(3, 4, 3, 4);
+            centerPanel.Margin = new Padding(2, 3, 2, 3);
             centerPanel.Name = "centerPanel";
             centerPanel.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            centerPanel.Size = new Size(621, 659);
+            centerPanel.Size = new Size(497, 527);
             centerPanel.TabIndex = 2;
             // 
             // guna2TextBox7
@@ -112,14 +112,14 @@
             guna2TextBox7.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox7.Font = new Font("Segoe UI", 9F);
             guna2TextBox7.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox7.Location = new Point(160, 475);
-            guna2TextBox7.Margin = new Padding(4, 6, 4, 6);
+            guna2TextBox7.Location = new Point(128, 380);
+            guna2TextBox7.Margin = new Padding(3, 5, 3, 5);
             guna2TextBox7.Name = "guna2TextBox7";
             guna2TextBox7.PasswordChar = '\0';
             guna2TextBox7.PlaceholderText = "";
             guna2TextBox7.SelectedText = "";
             guna2TextBox7.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2TextBox7.Size = new Size(433, 35);
+            guna2TextBox7.Size = new Size(346, 28);
             guna2TextBox7.TabIndex = 28;
             // 
             // guna2TextBox6
@@ -134,14 +134,14 @@
             guna2TextBox6.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox6.Font = new Font("Segoe UI", 9F);
             guna2TextBox6.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox6.Location = new Point(333, 419);
-            guna2TextBox6.Margin = new Padding(4, 6, 4, 6);
+            guna2TextBox6.Location = new Point(266, 335);
+            guna2TextBox6.Margin = new Padding(3, 5, 3, 5);
             guna2TextBox6.Name = "guna2TextBox6";
             guna2TextBox6.PasswordChar = '\0';
             guna2TextBox6.PlaceholderText = "";
             guna2TextBox6.SelectedText = "";
             guna2TextBox6.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2TextBox6.Size = new Size(260, 35);
+            guna2TextBox6.Size = new Size(208, 28);
             guna2TextBox6.TabIndex = 27;
             // 
             // guna2TextBox5
@@ -156,14 +156,14 @@
             guna2TextBox5.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox5.Font = new Font("Segoe UI", 9F);
             guna2TextBox5.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox5.Location = new Point(270, 362);
-            guna2TextBox5.Margin = new Padding(4, 6, 4, 6);
+            guna2TextBox5.Location = new Point(216, 290);
+            guna2TextBox5.Margin = new Padding(3, 5, 3, 5);
             guna2TextBox5.Name = "guna2TextBox5";
             guna2TextBox5.PasswordChar = '\0';
             guna2TextBox5.PlaceholderText = "";
             guna2TextBox5.SelectedText = "";
             guna2TextBox5.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2TextBox5.Size = new Size(323, 35);
+            guna2TextBox5.Size = new Size(258, 28);
             guna2TextBox5.TabIndex = 26;
             // 
             // guna2TextBox4
@@ -178,14 +178,14 @@
             guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox4.Font = new Font("Segoe UI", 9F);
             guna2TextBox4.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox4.Location = new Point(270, 306);
-            guna2TextBox4.Margin = new Padding(4, 6, 4, 6);
+            guna2TextBox4.Location = new Point(216, 245);
+            guna2TextBox4.Margin = new Padding(3, 5, 3, 5);
             guna2TextBox4.Name = "guna2TextBox4";
             guna2TextBox4.PasswordChar = '\0';
             guna2TextBox4.PlaceholderText = "";
             guna2TextBox4.SelectedText = "";
             guna2TextBox4.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            guna2TextBox4.Size = new Size(323, 35);
+            guna2TextBox4.Size = new Size(258, 28);
             guna2TextBox4.TabIndex = 7;
             // 
             // guna2TextBox3
@@ -200,14 +200,14 @@
             guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox3.Font = new Font("Segoe UI", 9F);
             guna2TextBox3.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Location = new Point(270, 254);
-            guna2TextBox3.Margin = new Padding(4, 6, 4, 6);
+            guna2TextBox3.Location = new Point(216, 203);
+            guna2TextBox3.Margin = new Padding(3, 5, 3, 5);
             guna2TextBox3.Name = "guna2TextBox3";
             guna2TextBox3.PasswordChar = '\0';
             guna2TextBox3.PlaceholderText = "";
             guna2TextBox3.SelectedText = "";
             guna2TextBox3.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2TextBox3.Size = new Size(323, 35);
+            guna2TextBox3.Size = new Size(258, 28);
             guna2TextBox3.TabIndex = 6;
             // 
             // guna2TextBox2
@@ -222,14 +222,14 @@
             guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox2.Font = new Font("Segoe UI", 9F);
             guna2TextBox2.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Location = new Point(201, 194);
-            guna2TextBox2.Margin = new Padding(4, 6, 4, 6);
+            guna2TextBox2.Location = new Point(161, 155);
+            guna2TextBox2.Margin = new Padding(3, 5, 3, 5);
             guna2TextBox2.Name = "guna2TextBox2";
             guna2TextBox2.PasswordChar = '\0';
             guna2TextBox2.PlaceholderText = "";
             guna2TextBox2.SelectedText = "";
             guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2TextBox2.Size = new Size(392, 35);
+            guna2TextBox2.Size = new Size(314, 28);
             guna2TextBox2.TabIndex = 5;
             // 
             // guna2TextBox1
@@ -244,14 +244,14 @@
             guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox1.Font = new Font("Segoe UI", 9F);
             guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(158, 138);
-            guna2TextBox1.Margin = new Padding(4, 6, 4, 6);
+            guna2TextBox1.Location = new Point(126, 110);
+            guna2TextBox1.Margin = new Padding(3, 5, 3, 5);
             guna2TextBox1.Name = "guna2TextBox1";
             guna2TextBox1.PasswordChar = '\0';
             guna2TextBox1.PlaceholderText = "";
             guna2TextBox1.SelectedText = "";
             guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2TextBox1.Size = new Size(436, 35);
+            guna2TextBox1.Size = new Size(349, 28);
             guna2TextBox1.TabIndex = 4;
             // 
             // btnXoa
@@ -266,11 +266,11 @@
             btnXoa.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnXoa.ForeColor = Color.White;
             btnXoa.Image = QTV.Properties.Resources.cross_circle__3_;
-            btnXoa.Location = new Point(328, 540);
-            btnXoa.Margin = new Padding(3, 4, 3, 4);
+            btnXoa.Location = new Point(262, 432);
+            btnXoa.Margin = new Padding(2, 3, 2, 3);
             btnXoa.Name = "btnXoa";
             btnXoa.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            btnXoa.Size = new Size(177, 62);
+            btnXoa.Size = new Size(142, 50);
             btnXoa.TabIndex = 3;
             btnXoa.Text = " Xóa";
             // 
@@ -286,11 +286,11 @@
             btnChinhSua.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnChinhSua.ForeColor = Color.White;
             btnChinhSua.Image = QTV.Properties.Resources.file_edit__1_;
-            btnChinhSua.Location = new Point(128, 540);
-            btnChinhSua.Margin = new Padding(3, 4, 3, 4);
+            btnChinhSua.Location = new Point(102, 432);
+            btnChinhSua.Margin = new Padding(2, 3, 2, 3);
             btnChinhSua.Name = "btnChinhSua";
             btnChinhSua.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            btnChinhSua.Size = new Size(177, 62);
+            btnChinhSua.Size = new Size(142, 50);
             btnChinhSua.TabIndex = 2;
             btnChinhSua.Text = "Chỉnh sửa";
             btnChinhSua.Click += btnChinhSua_Click;
@@ -299,10 +299,11 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.ForeColor = Color.DimGray;
-            label8.Location = new Point(72, 475);
+            label8.ForeColor = Color.FromArgb(64, 64, 64);
+            label8.Location = new Point(58, 380);
+            label8.Margin = new Padding(2, 0, 2, 0);
             label8.Name = "label8";
-            label8.Size = new Size(73, 28);
+            label8.Size = new Size(65, 23);
             label8.TabIndex = 1;
             label8.Text = "Đề thi: ";
             // 
@@ -310,10 +311,11 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.ForeColor = Color.DimGray;
-            label7.Location = new Point(72, 419);
+            label7.ForeColor = Color.FromArgb(64, 64, 64);
+            label7.Location = new Point(58, 335);
+            label7.Margin = new Padding(2, 0, 2, 0);
             label7.Name = "label7";
-            label7.Size = new Size(229, 28);
+            label7.Size = new Size(202, 23);
             label7.TabIndex = 1;
             label7.Text = "Số sinh viên đã tham gia:";
             // 
@@ -321,10 +323,11 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.ForeColor = Color.DimGray;
-            label9.Location = new Point(72, 362);
+            label9.ForeColor = Color.FromArgb(64, 64, 64);
+            label9.Location = new Point(58, 290);
+            label9.Margin = new Padding(2, 0, 2, 0);
             label9.Name = "label9";
-            label9.Size = new Size(172, 28);
+            label9.Size = new Size(152, 23);
             label9.TabIndex = 1;
             label9.Text = "Thời gian kết thúc:";
             // 
@@ -332,10 +335,11 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.ForeColor = Color.DimGray;
-            label6.Location = new Point(70, 306);
+            label6.ForeColor = Color.FromArgb(64, 64, 64);
+            label6.Location = new Point(56, 245);
+            label6.Margin = new Padding(2, 0, 2, 0);
             label6.Name = "label6";
-            label6.Size = new Size(169, 28);
+            label6.Size = new Size(149, 23);
             label6.TabIndex = 1;
             label6.Text = "Thời gian bắt đầu:";
             // 
@@ -343,10 +347,11 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.ForeColor = Color.DimGray;
-            label5.Location = new Point(70, 250);
+            label5.ForeColor = Color.FromArgb(64, 64, 64);
+            label5.Location = new Point(56, 200);
+            label5.Margin = new Padding(2, 0, 2, 0);
             label5.Name = "label5";
-            label5.Size = new Size(171, 28);
+            label5.Size = new Size(149, 23);
             label5.TabIndex = 1;
             label5.Text = "Thời lượng bài thi:";
             // 
@@ -354,10 +359,11 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.ForeColor = Color.DimGray;
-            label4.Location = new Point(70, 194);
+            label4.ForeColor = Color.FromArgb(64, 64, 64);
+            label4.Location = new Point(56, 155);
+            label4.Margin = new Padding(2, 0, 2, 0);
             label4.Name = "label4";
-            label4.Size = new Size(112, 28);
+            label4.Size = new Size(99, 23);
             label4.TabIndex = 1;
             label4.Text = "Số câu hỏi: ";
             // 
@@ -365,10 +371,11 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.DimGray;
-            label3.Location = new Point(70, 138);
+            label3.ForeColor = Color.FromArgb(64, 64, 64);
+            label3.Location = new Point(56, 110);
+            label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(73, 28);
+            label3.Size = new Size(64, 23);
             label3.TabIndex = 1;
             label3.Text = "Mô tả: ";
             // 
@@ -385,25 +392,25 @@
             txtTenBaiThi.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txtTenBaiThi.ForeColor = Color.Black;
             txtTenBaiThi.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtTenBaiThi.Location = new Point(29, 42);
-            txtTenBaiThi.Margin = new Padding(4, 5, 4, 5);
+            txtTenBaiThi.Location = new Point(23, 34);
+            txtTenBaiThi.Margin = new Padding(3, 4, 3, 4);
             txtTenBaiThi.Name = "txtTenBaiThi";
             txtTenBaiThi.PasswordChar = '\0';
             txtTenBaiThi.PlaceholderText = "";
             txtTenBaiThi.SelectedText = "";
             txtTenBaiThi.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            txtTenBaiThi.Size = new Size(564, 72);
+            txtTenBaiThi.Size = new Size(451, 58);
             txtTenBaiThi.TabIndex = 0;
             // 
             // frmCTBaiThi
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(623, 662);
+            ClientSize = new Size(498, 530);
             Controls.Add(centerPanel);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            Margin = new Padding(3, 4, 3, 4);
+            Margin = new Padding(2, 3, 2, 3);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "frmCTBaiThi";

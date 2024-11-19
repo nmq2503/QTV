@@ -133,5 +133,69 @@ namespace QTV.Controllers
                 return false;
             }
         }
+
+        public DataTable loadSinhVienInClass(string LopHP)
+        {
+            try
+            {
+                var ado = ADO.Instance;
+                string query = "SELECT * FROM SV_LopHP LEFT JOIN SinhVien ON SV_LopHP.MaSV = SinhVien.MaSV WHERE SV_LopHP.MaLHP = @LopHP";
+                var parameter = ado.CreateParameter("@LopHP", LopHP);
+                return ado.ExecuteQuery(query, parameter);
+            } catch (Exception ex)
+            {
+                Debug.WriteLine(ex);
+                return null;
+            }
+        }
+        
+        public DataTable loadSinhVienNotInClass(string LopHP)
+        {
+            try
+            {
+                var ado = ADO.Instance;
+                string query = "SELECT * FROM SinhVien WHERE MaSV NOT IN (SELECT MaSV FROM SV_LopHP WHERE SV_LopHP.MaLHP = @LopHP)";
+                var parameter = ado.CreateParameter("@LopHP", LopHP);
+                return ado.ExecuteQuery(query, parameter);
+            } catch (Exception ex)
+            {
+                Debug.WriteLine(ex);
+                return null;
+            }
+        }
+        
+        public bool addSinhVienToClass(string MaSV, string MaLHP)
+        {
+            try
+            {
+                var ado = ADO.Instance;
+                string query = "INSERT INTO SV_LopHP(MaSV, MaLHP) VALUES(@MaSV, @MaLHP)";
+                var parameter = ado.CreateParameter("@MaSV", MaSV);
+                var parameter1 = ado.CreateParameter("@MaLHP", MaLHP);
+                var result = ado.ExecuteNonQuery(query, parameter, parameter1);
+                return result > 0;
+            } catch (Exception ex)
+            {
+                Debug.WriteLine(ex);
+                return false;
+            }
+        }
+        
+        public bool removeSinhVienFromClass(string MaSV, string MaLHP)
+        {
+            try
+            {
+                var ado = ADO.Instance;
+                string query = "DELETE FROM SV_LopHP WHERE MaSV = @MaSV AND MaLHP = @MaLHP";
+                var parameter = ado.CreateParameter("@MaSV", MaSV);
+                var parameter1 = ado.CreateParameter("@MaLHP", MaLHP);
+                var result = ado.ExecuteNonQuery(query, parameter, parameter1);
+                return result > 0;
+            } catch (Exception ex)
+            {
+                Debug.WriteLine(ex);
+                return false;
+            }
+        }
     }
 }

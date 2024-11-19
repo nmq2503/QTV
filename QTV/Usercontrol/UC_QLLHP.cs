@@ -9,22 +9,90 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using QTV.Controllers;
+using QTV.Views;
+
 
 namespace QTV.Usercontrol
 {
     public partial class UC_QLLHP : UserControl
     {
-        string connectstring = @"Data Source=LAPTOP;Initial Catalog=QLTN;Integrated Security=True";
-        SqlConnection con;
-        SqlCommand cmd;
-        SqlDataAdapter adt;
-        DataTable dt;
+
 
         private DataGridViewImageColumn deleteColumn;
         public UC_QLLHP()
         {
             InitializeComponent();
             LoadData();
+            InitializeFluentDesign();
+
+        }
+
+
+        private void InitializeFluentDesign()
+        {
+            dataGridView1.BorderStyle = BorderStyle.None;
+            dataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(64, 64, 128);
+            dataGridView1.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            dataGridView1.EnableHeadersVisualStyles = false;
+            dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+            dataGridView1.DefaultCellStyle.BackColor = Color.White;
+            dataGridView1.DefaultCellStyle.ForeColor = Color.Black;
+            dataGridView1.DefaultCellStyle.SelectionBackColor = Color.SteelBlue;
+            dataGridView1.DefaultCellStyle.SelectionForeColor = Color.White;
+            dataGridView1.GridColor = Color.Gainsboro;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+
+            DataGridViewImageColumn studentColumn = new DataGridViewImageColumn();
+            studentColumn.Name = "DSSV";
+            studentColumn.HeaderText = "Sinh Viên";
+            studentColumn.Image = Properties.Resources.cu2;
+            studentColumn.ImageLayout = DataGridViewImageCellLayout.Zoom;
+            studentColumn.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridView1.Columns.Add(studentColumn);
+
+            DataGridViewImageColumn editButtonColumn = new DataGridViewImageColumn();
+            editButtonColumn.Name = "EditColumn";
+            editButtonColumn.HeaderText = "Sửa";
+            editButtonColumn.Image = Properties.Resources.p2;
+            editButtonColumn.ImageLayout = DataGridViewImageCellLayout.Zoom;
+            editButtonColumn.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridView1.Columns.Add(editButtonColumn);
+
+            DataGridViewImageColumn deleteButtonColumn = new DataGridViewImageColumn();
+            deleteButtonColumn.Name = "DeleteColumn";
+            deleteButtonColumn.HeaderText = "Xóa";
+            deleteButtonColumn.Image = Properties.Resources.t2;
+            deleteButtonColumn.ImageLayout = DataGridViewImageCellLayout.Zoom;
+            deleteButtonColumn.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridView1.Columns.Add(deleteButtonColumn);
+
+            dataGridView1.Columns["EditColumn"].DisplayIndex = dataGridView1.Columns.Count - 2;
+            dataGridView1.Columns["DeleteColumn"].DisplayIndex = dataGridView1.Columns.Count - 1;
+        }
+        public void dataGridView1_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            // Đặt màu cho header
+            dataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(64, 64, 128);
+            dataGridView1.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            dataGridView1.EnableHeadersVisualStyles = false;
+
+            // Đặt màu cho cell
+            e.CellStyle.BackColor = Color.White;
+            e.CellStyle.ForeColor = Color.Black; // Màu chữ cho cell
+        }
+
+        private void HandleDetele(String MaLHP)
+        {
+            DialogResult result = MessageBox.Show(
+                    "Bạn có chắc chắn muốn xóa dòng này không?",
+                    "Xác nhận xóa",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                MessageBox.Show("Xóa thành công");
+            }
         }
 
         private void UC_QLLHP_Load(object sender, EventArgs e)
@@ -46,19 +114,25 @@ namespace QTV.Usercontrol
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            // Kiểm tra xem người dùng có click vào cột xóa không
             if (e.ColumnIndex == dataGridView1.Columns["deleteColumn"].Index && e.RowIndex >= 0)
             {
-                DialogResult result = MessageBox.Show(
-                    "Bạn có chắc chắn muốn xóa dòng này không?",
-                    "Xác nhận xóa",
-                    MessageBoxButtons.YesNo,
-                    MessageBoxIcon.Question);
+                string maLHP = dataGridView1.Rows[e.RowIndex].Cells["MaLHP"].Value?.ToString();
 
-                if (result == DialogResult.Yes)
+                if (!string.IsNullOrEmpty(maLHP))
                 {
-                    dataGridView1.Rows.RemoveAt(e.RowIndex);
+                    HandleDetele(maLHP);
                 }
+                else
+                {
+                    MessageBox.Show("Không thể xác định Mã LHP để xóa.");
+                }
+            }
+            else if (e.ColumnIndex == dataGridView1.Columns["DSSV"].Index && e.RowIndex >= 0)
+            {
+                string maLHP = dataGridView1.Rows[e.RowIndex].Cells["MaLHP"].Value?.ToString();
+                frmSinhVienLHP frmSinhVienLHP = new frmSinhVienLHP(maLHP);
+                frmSinhVienLHP.ShowDialog();
+
             }
         }
 
@@ -99,7 +173,7 @@ namespace QTV.Usercontrol
                 MessageBox.Show(ex.Message);
             }
         }
-        
+
         // View specific methods
         private void LoadData()
         {
@@ -114,10 +188,15 @@ namespace QTV.Usercontrol
             dataGridView1.Columns["TenMon"].HeaderText = "Tên Môn Học";
             foreach (DataGridViewColumn column in dataGridView1.Columns)
             {
-                column.HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
+                column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             }
         }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
-    
-    
+
+
 }

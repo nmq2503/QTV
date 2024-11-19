@@ -67,7 +67,7 @@
             // borderBaoCao
             // 
             borderBaoCao.CustomizableEdges = customizableEdges1;
-            borderBaoCao.FillColor = Color.SteelBlue;
+            borderBaoCao.FillColor = Color.FromArgb(64, 64, 128);
             borderBaoCao.Location = new Point(281, 69);
             borderBaoCao.Margin = new Padding(0);
             borderBaoCao.Name = "borderBaoCao";
@@ -78,7 +78,7 @@
             // borderMonHoc
             // 
             borderMonHoc.CustomizableEdges = customizableEdges3;
-            borderMonHoc.FillColor = Color.SteelBlue;
+            borderMonHoc.FillColor = Color.FromArgb(64, 64, 128);
             borderMonHoc.Location = new Point(3, 69);
             borderMonHoc.Margin = new Padding(0);
             borderMonHoc.Name = "borderMonHoc";
@@ -97,7 +97,9 @@
             btnBaoCao.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             btnBaoCao.FillColor = Color.White;
             btnBaoCao.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnBaoCao.ForeColor = Color.Gray;
+            btnBaoCao.ForeColor = Color.DimGray;
+            btnBaoCao.HoverState.FillColor = Color.Transparent;
+            btnBaoCao.HoverState.ForeColor = Color.Transparent;
             btnBaoCao.Location = new Point(281, 14);
             btnBaoCao.Name = "btnBaoCao";
             btnBaoCao.ShadowDecoration.CustomizableEdges = customizableEdges6;
@@ -105,7 +107,7 @@
             btnBaoCao.TabIndex = 23;
             btnBaoCao.Text = "Báo cáo";
             btnBaoCao.Click += btnBaoCao_Click;
-            btnBaoCao.MouseHover += btnBaoCao_MouseHover;
+            btnBaoCao.MouseHover += btnBaoCao_MouseHover_1;
             // 
             // btnMonHoc
             // 
@@ -118,7 +120,9 @@
             btnMonHoc.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             btnMonHoc.FillColor = Color.White;
             btnMonHoc.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            btnMonHoc.ForeColor = Color.SteelBlue;
+            btnMonHoc.ForeColor = Color.FromArgb(64, 64, 128);
+            btnMonHoc.HoverState.FillColor = Color.Transparent;
+            btnMonHoc.HoverState.ForeColor = Color.Transparent;
             btnMonHoc.Location = new Point(3, 14);
             btnMonHoc.Name = "btnMonHoc";
             btnMonHoc.ShadowDecoration.CustomizableEdges = customizableEdges8;
@@ -126,6 +130,7 @@
             btnMonHoc.TabIndex = 22;
             btnMonHoc.Text = "Môn học";
             btnMonHoc.Click += btnMonHoc_Click;
+            btnMonHoc.MouseEnter += btnMonHoc_MouseEnter;
             btnMonHoc.MouseHover += btnMonHoc_MouseHover;
             // 
             // panelContainer

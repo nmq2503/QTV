@@ -86,6 +86,7 @@
             // mainPanel
             // 
             mainPanel.Anchor = AnchorStyles.None;
+            mainPanel.BorderRadius = 6;
             mainPanel.Controls.Add(img);
             mainPanel.Controls.Add(guna2ImageCheckBox2);
             mainPanel.Controls.Add(buttChonVaiTro);
@@ -95,6 +96,8 @@
             mainPanel.Controls.Add(txtmatkhau);
             mainPanel.Controls.Add(guna2TextBox4);
             mainPanel.Controls.Add(chkboxnhomatkhau);
+            mainPanel.CustomBorderColor = Color.FromArgb(64, 64, 128);
+            mainPanel.CustomBorderThickness = new Padding(3);
             mainPanel.CustomizableEdges = customizableEdges15;
             mainPanel.Location = new Point(0, 0);
             mainPanel.Margin = new Padding(3, 2, 3, 2);
@@ -131,6 +134,7 @@
             guna2ImageCheckBox2.ShadowDecoration.CustomizableEdges = customizableEdges3;
             guna2ImageCheckBox2.Size = new Size(35, 30);
             guna2ImageCheckBox2.TabIndex = 9;
+            guna2ImageCheckBox2.CheckedChanged += guna2ImageCheckBox2_CheckedChanged;
             // 
             // buttChonVaiTro
             // 
@@ -140,10 +144,10 @@
             buttChonVaiTro.DisabledState.CustomBorderColor = Color.DarkGray;
             buttChonVaiTro.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             buttChonVaiTro.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            buttChonVaiTro.FillColor = Color.FromArgb(57, 90, 127);
+            buttChonVaiTro.FillColor = Color.FromArgb(64, 64, 128);
             buttChonVaiTro.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttChonVaiTro.ForeColor = Color.White;
-            buttChonVaiTro.Location = new Point(101, 383);
+            buttChonVaiTro.Location = new Point(102, 383);
             buttChonVaiTro.Name = "buttChonVaiTro";
             buttChonVaiTro.ShadowDecoration.CustomizableEdges = customizableEdges5;
             buttChonVaiTro.Size = new Size(158, 38);
@@ -175,10 +179,10 @@
             buttdangnhap.DisabledState.CustomBorderColor = Color.DarkGray;
             buttdangnhap.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             buttdangnhap.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            buttdangnhap.FillColor = Color.FromArgb(57, 90, 127);
+            buttdangnhap.FillColor = Color.FromArgb(64, 64, 128);
             buttdangnhap.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttdangnhap.ForeColor = Color.White;
-            buttdangnhap.Location = new Point(101, 340);
+            buttdangnhap.Location = new Point(103, 340);
             buttdangnhap.Name = "buttdangnhap";
             buttdangnhap.ShadowDecoration.CustomizableEdges = customizableEdges7;
             buttdangnhap.Size = new Size(158, 38);
@@ -197,7 +201,7 @@
             txttaikhoan.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txttaikhoan.FocusedState.BorderColor = Color.FromArgb(57, 90, 127);
             txttaikhoan.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txttaikhoan.ForeColor = Color.FromArgb(205, 205, 205);
+            txttaikhoan.ForeColor = Color.Black;
             txttaikhoan.HoverState.BorderColor = Color.FromArgb(57, 90, 127);
             txttaikhoan.IconLeft = (Image)resources.GetObject("txttaikhoan.IconLeft");
             txttaikhoan.IconLeftSize = new Size(30, 30);
@@ -205,6 +209,7 @@
             txttaikhoan.Margin = new Padding(4, 4, 4, 4);
             txttaikhoan.Name = "txttaikhoan";
             txttaikhoan.PasswordChar = '\0';
+            txttaikhoan.PlaceholderForeColor = Color.DarkGray;
             txttaikhoan.PlaceholderText = "Mã người dùng";
             txttaikhoan.SelectedText = "";
             txttaikhoan.ShadowDecoration.CustomizableEdges = customizableEdges9;
@@ -223,19 +228,21 @@
             txtmatkhau.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtmatkhau.FocusedState.BorderColor = Color.FromArgb(57, 90, 127);
             txtmatkhau.Font = new Font("Segoe UI", 10F);
-            txtmatkhau.ForeColor = Color.FromArgb(205, 205, 205);
+            txtmatkhau.ForeColor = Color.Black;
             txtmatkhau.HoverState.BorderColor = Color.FromArgb(57, 90, 127);
             txtmatkhau.IconLeft = (Image)resources.GetObject("txtmatkhau.IconLeft");
             txtmatkhau.IconLeftSize = new Size(30, 30);
             txtmatkhau.Location = new Point(12, 241);
             txtmatkhau.Margin = new Padding(4, 4, 4, 11);
             txtmatkhau.Name = "txtmatkhau";
-            txtmatkhau.PasswordChar = '\0';
+            txtmatkhau.PasswordChar = '*';
+            txtmatkhau.PlaceholderForeColor = Color.DarkGray;
             txtmatkhau.PlaceholderText = "Mật khẩu";
             txtmatkhau.SelectedText = "";
             txtmatkhau.ShadowDecoration.CustomizableEdges = customizableEdges11;
             txtmatkhau.Size = new Size(332, 44);
             txtmatkhau.TabIndex = 5;
+            txtmatkhau.TextChanged += txtmatkhau_TextChanged;
             // 
             // guna2TextBox4
             // 
@@ -274,6 +281,7 @@
             chkboxnhomatkhau.ShadowDecoration.CustomizableEdges = customizableEdges14;
             chkboxnhomatkhau.Size = new Size(21, 22);
             chkboxnhomatkhau.TabIndex = 7;
+            chkboxnhomatkhau.CheckedChanged += chkboxnhomatkhau_CheckedChanged;
             // 
             // FrmLogin
             // 

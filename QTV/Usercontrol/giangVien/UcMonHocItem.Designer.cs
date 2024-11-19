@@ -78,6 +78,7 @@
             // lblTenMon
             // 
             lblTenMon.BackColor = Color.Transparent;
+            lblTenMon.ForeColor = Color.FromArgb(64, 64, 64);
             lblTenMon.Location = new Point(107, 63);
             lblTenMon.Margin = new Padding(3, 4, 3, 4);
             lblTenMon.Name = "lblTenMon";
@@ -88,6 +89,7 @@
             // lblMaMon
             // 
             lblMaMon.BackColor = Color.Transparent;
+            lblMaMon.ForeColor = Color.FromArgb(64, 64, 64);
             lblMaMon.Location = new Point(107, 17);
             lblMaMon.Margin = new Padding(3, 4, 3, 4);
             lblMaMon.Name = "lblMaMon";
@@ -98,20 +100,24 @@
             // LabelTenMon
             // 
             LabelTenMon.BackColor = Color.Transparent;
+            LabelTenMon.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LabelTenMon.ForeColor = Color.FromArgb(64, 64, 64);
             LabelTenMon.Location = new Point(32, 63);
             LabelTenMon.Margin = new Padding(3, 4, 3, 4);
             LabelTenMon.Name = "LabelTenMon";
-            LabelTenMon.Size = new Size(64, 22);
+            LabelTenMon.Size = new Size(69, 22);
             LabelTenMon.TabIndex = 1;
             LabelTenMon.Text = "Tên môn: ";
             // 
             // LabelMaMon
             // 
             LabelMaMon.BackColor = Color.Transparent;
+            LabelMaMon.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LabelMaMon.ForeColor = Color.FromArgb(64, 64, 64);
             LabelMaMon.Location = new Point(32, 17);
             LabelMaMon.Margin = new Padding(3, 4, 3, 4);
             LabelMaMon.Name = "LabelMaMon";
-            LabelMaMon.Size = new Size(61, 22);
+            LabelMaMon.Size = new Size(65, 22);
             LabelMaMon.TabIndex = 0;
             LabelMaMon.Text = "Mã môn: ";
             // 

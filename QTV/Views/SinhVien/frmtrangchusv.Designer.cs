@@ -60,7 +60,7 @@
             panThanhcongcu.Name = "panThanhcongcu";
             panThanhcongcu.ShadowColor = Color.Black;
             panThanhcongcu.ShadowDepth = 70;
-            panThanhcongcu.ShadowShift = 3;
+            panThanhcongcu.ShadowShift = 4;
             panThanhcongcu.ShadowStyle = Guna.UI2.WinForms.Guna2ShadowPanel.ShadowMode.Dropped;
             panThanhcongcu.Size = new Size(1902, 116);
             panThanhcongcu.TabIndex = 0;
@@ -83,12 +83,12 @@
             guna2Button4.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             guna2Button4.FillColor = Color.White;
             guna2Button4.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button4.ForeColor = Color.FromArgb(57, 90, 127);
+            guna2Button4.ForeColor = Color.FromArgb(64, 64, 128);
             guna2Button4.HoverState.BorderColor = Color.White;
             guna2Button4.HoverState.CustomBorderColor = Color.FromArgb(50, 80, 115);
             guna2Button4.HoverState.FillColor = Color.Transparent;
             guna2Button4.HoverState.ForeColor = Color.FromArgb(50, 80, 115);
-            guna2Button4.Location = new Point(1390, 37);
+            guna2Button4.Location = new Point(1481, 35);
             guna2Button4.Name = "guna2Button4";
             guna2Button4.PressedColor = Color.Transparent;
             guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges2;
@@ -123,11 +123,11 @@
             guna2PictureBox1.CustomizableEdges = customizableEdges4;
             guna2PictureBox1.Image = (Image)resources.GetObject("guna2PictureBox1.Image");
             guna2PictureBox1.ImageRotate = 0F;
-            guna2PictureBox1.Location = new Point(3, 4);
+            guna2PictureBox1.Location = new Point(0, 2);
             guna2PictureBox1.Margin = new Padding(3, 4, 3, 4);
             guna2PictureBox1.Name = "guna2PictureBox1";
             guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges5;
-            guna2PictureBox1.Size = new Size(103, 105);
+            guna2PictureBox1.Size = new Size(110, 98);
             guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             guna2PictureBox1.TabIndex = 2;
             guna2PictureBox1.TabStop = false;
