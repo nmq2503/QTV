@@ -70,6 +70,12 @@ namespace QuanLyTracNghiem.Thanhcongcu
 
             // loadCauHoi
             var questions = studentController.loadCauHoi(BaiThi.MaDeThi);
+            Debug.WriteLine(BaiThi.XaoTron.ToString());
+            if(BaiThi.XaoTron == 1)
+            {
+                Random rng = new Random();
+                questions = questions.OrderBy(q => rng.Next()).ToList();
+            }
             var q_cnt = 0;
             foreach (var question in questions)
             {

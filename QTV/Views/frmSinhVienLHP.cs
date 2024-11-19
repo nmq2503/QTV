@@ -37,7 +37,7 @@ namespace QTV.Views
 
             DataGridViewImageColumn studentColumn = new DataGridViewImageColumn();
             studentColumn.Name = "DSSV";
-            studentColumn.HeaderText = "Hành động";
+            studentColumn.HeaderText = "Xóa";
             studentColumn.Image = Properties.Resources.cross_circle__3_;
             studentColumn.ImageLayout = DataGridViewImageCellLayout.Zoom;
             studentColumn.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
@@ -58,13 +58,16 @@ namespace QTV.Views
 
             DataGridViewImageColumn studentColumn2 = new DataGridViewImageColumn();
             studentColumn2.Name = "DSSV";
-            studentColumn2.HeaderText = "Hành động";
+            studentColumn2.HeaderText = "Thêm";
             studentColumn2.Image = Properties.Resources.cross_circle__3_;
             studentColumn2.ImageLayout = DataGridViewImageCellLayout.Zoom;
             studentColumn2.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dgvSinhVienNot.Columns.Add(studentColumn2);
 
             dgvSinhVienNot.Columns["DSSV"].DisplayIndex = dgvSinhVienNot.Columns.Count - 1;
+
+            dgvSinhVien.CellClick += dgvSinhVien_CellClick;
+            dgvSinhVienNot.CellClick += dgvSinhVienNot_CellClick;
         }
 
         public void LoadData()
@@ -108,6 +111,39 @@ namespace QTV.Views
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void dgvSinhVien_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0 && dgvSinhVien.Columns[e.ColumnIndex].Name == "DSSV")
+            {
+                string maSV = dgvSinhVien.Rows[e.RowIndex].Cells["Mã Sinh Viên"].Value.ToString();
+                removeSVFromClass(maSV, maLHP);
+            }
+        }
+
+        private void dgvSinhVienNot_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0 && dgvSinhVienNot.Columns[e.ColumnIndex].Name == "DSSV")
+            {
+                string maSV = dgvSinhVienNot.Rows[e.RowIndex].Cells["Mã Sinh Viên"].Value.ToString();
+                addSVToClass(maSV, maLHP);
+            }
+        }
+
+        private void addSVToClass(string MaSV, string LopHP)
+        {
+            ClassController classController = new ClassController();
+            classController.addSinhVienToClass(MaSV, LopHP);
+            LoadData();
+        }
+
+        private void removeSVFromClass(string MaSV, string LopHP)
+        {
+            ClassController classController = new ClassController();
+            classController.removeSinhVienFromClass(MaSV, LopHP);
+            LoadData();
 
         }
     }

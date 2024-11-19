@@ -32,7 +32,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             dgvSinhVien = new DataGridView();
             label1 = new Label();
-            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             label2 = new Label();
             dgvSinhVienNot = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dgvSinhVien).BeginInit();
@@ -60,25 +59,6 @@
             label1.TabIndex = 25;
             label1.Text = "Danh Sách Sinh Viên";
             label1.Click += label1_Click;
-            // 
-            // guna2Button3
-            // 
-            guna2Button3.BorderRadius = 6;
-            guna2Button3.CustomizableEdges = customizableEdges1;
-            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button3.FillColor = Color.FromArgb(57, 90, 127);
-            guna2Button3.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button3.ForeColor = Color.White;
-            guna2Button3.Location = new Point(141, 536);
-            guna2Button3.Name = "guna2Button3";
-            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Button3.Size = new Size(147, 49);
-            guna2Button3.TabIndex = 27;
-            guna2Button3.Text = "THÊM";
-            guna2Button3.Click += guna2Button3_Click;
             // 
             // label2
             // 
@@ -108,7 +88,6 @@
             ClientSize = new Size(914, 600);
             Controls.Add(dgvSinhVienNot);
             Controls.Add(label2);
-            Controls.Add(guna2Button3);
             Controls.Add(label1);
             Controls.Add(dgvSinhVien);
             Margin = new Padding(3, 4, 3, 4);

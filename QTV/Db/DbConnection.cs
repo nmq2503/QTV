@@ -185,5 +185,17 @@ namespace QTV.DataAccess
         {
             return new SqlParameter(name, value ?? DBNull.Value);
         }
+
+        public void TestConnection()
+        {
+            try
+            {
+                GetConnection();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Database connection failed.", ex);
+            }
+        }
     }
 }
