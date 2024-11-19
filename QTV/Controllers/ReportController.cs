@@ -68,6 +68,7 @@ public class ReportController
             BaiThi baiThi = new BaiThi();
             baiThi.MaBaiThi = row["MaBaiThi"].ToString();
             baiThi.TenBaiThi = row["TenBaiThi"].ToString();
+            baiThi.XaoTron = row["TronCauHoi"].ToString() == "True" ? 1 : 0;
             baiThis.Add(baiThi);
         }
         return baiThis;

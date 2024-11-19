@@ -122,7 +122,8 @@ public class StudentController
                 MoTa = row["MoTa"].ToString(),
                 ThoiLuong = int.Parse(row["ThoiLuong"].ToString()),
                 SoCauHoi = countCauHoi(row["MaDeThi"].ToString()),
-                MaDeThi = row["MaDeThi"].ToString()
+                MaDeThi = row["MaDeThi"].ToString(),
+                XaoTron = row["TronCauHoi"].ToString() == "True" ? 1 : 0
             };
             result.Add(bai_thi);
         }
