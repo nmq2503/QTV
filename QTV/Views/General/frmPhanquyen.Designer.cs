@@ -49,6 +49,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
@@ -60,6 +62,7 @@
             guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
             guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
+            buttChonVaiTro = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).BeginInit();
@@ -92,7 +95,7 @@
             guna2HtmlLabel1.ForeColor = Color.DimGray;
             guna2HtmlLabel1.Location = new Point(774, 244);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(354, 31);
+            guna2HtmlLabel1.Size = new Size(271, 24);
             guna2HtmlLabel1.TabIndex = 1;
             guna2HtmlLabel1.Text = "Bạn đang đăng nhập với tư cách?";
             // 
@@ -265,11 +268,31 @@
             guna2PictureBox4.TabStop = false;
             guna2PictureBox4.Click += guna2PictureBox4_Click;
             // 
+            // buttChonVaiTro
+            // 
+            buttChonVaiTro.BorderRadius = 4;
+            buttChonVaiTro.CustomizableEdges = customizableEdges21;
+            buttChonVaiTro.DisabledState.BorderColor = Color.DarkGray;
+            buttChonVaiTro.DisabledState.CustomBorderColor = Color.DarkGray;
+            buttChonVaiTro.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            buttChonVaiTro.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            buttChonVaiTro.FillColor = Color.FromArgb(64, 64, 128);
+            buttChonVaiTro.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttChonVaiTro.ForeColor = Color.White;
+            buttChonVaiTro.Location = new Point(66, 950);
+            buttChonVaiTro.Name = "buttChonVaiTro";
+            buttChonVaiTro.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            buttChonVaiTro.Size = new Size(202, 38);
+            buttChonVaiTro.TabIndex = 12;
+            buttChonVaiTro.Text = "Hướng dẫn Sử dụng";
+            buttChonVaiTro.Click += buttChonVaiTro_Click;
+            // 
             // frmPhanquyen
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.White;
             ClientSize = new Size(1902, 1033);
+            Controls.Add(buttChonVaiTro);
             Controls.Add(guna2Panel3);
             Controls.Add(guna2Panel2);
             Controls.Add(guna2Panel1);
@@ -303,5 +326,6 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
+        private Guna.UI2.WinForms.Guna2Button buttChonVaiTro;
     }
 }

@@ -314,7 +314,7 @@ public class StudentController
         if (result.Rows.Count > 0)
         {
             // update
-            var query_update = "UPDATE ChiTiethBaiLam SET MaPhuongAn = @MaPhuongAn, ThoiGianTraLoi = @Now WHERE MaBaiLam = @MaBaiLam AND MaCauHoi = @MaCauHoi";
+            var query_update = "UPDATE ChiTietBaiLam SET MaPhuongAn = @MaPhuongAn, ThoiGianTraLoi = @Now WHERE MaBaiLam = @MaBaiLam AND MaCauHoi = @MaCauHoi";
             var parameters_update = new SqlParameter[]
             {
                 ado.CreateParameter("@MaBaiLam", MaBaiLam),

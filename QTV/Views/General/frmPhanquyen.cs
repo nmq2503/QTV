@@ -9,6 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using QuanLyTracNghiem.Thanhcongcu;
+using PdfiumViewer;
+using System.Drawing.Printing;
+using QTV.Views;
 
 namespace QuanLyTracNghiem
 {
@@ -82,6 +85,12 @@ namespace QuanLyTracNghiem
         private void guna2PictureBox4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttChonVaiTro_Click(object sender, EventArgs e)
+        {
+            frmHDSD frmHDSD = new frmHDSD();
+            frmHDSD.Show();
         }
     }
 }

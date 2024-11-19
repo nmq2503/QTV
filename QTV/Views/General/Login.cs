@@ -137,5 +137,22 @@ namespace QuanLyTracNghiem
         {
 
         }
+
+        private void guna2ImageCheckBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (guna2ImageCheckBox2.Checked)
+            {
+                txtmatkhau.PasswordChar = '\0';
+            }
+            else
+            {
+                txtmatkhau.PasswordChar = '*';
+            }
+        }
+
+        private void txtmatkhau_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
