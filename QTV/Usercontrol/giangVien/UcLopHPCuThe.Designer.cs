@@ -45,10 +45,10 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(64, 64, 64);
-            label1.Location = new Point(-192, 76);
+            label1.Location = new Point(-219, 101);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(103, 30);
+            label1.Size = new Size(129, 37);
             label1.TabIndex = 22;
             label1.Text = "Môn học";
             // 
@@ -58,11 +58,10 @@
             containelPanel.Controls.Add(flpDanhSachBaiThi);
             containelPanel.Controls.Add(guna2HtmlLabel1);
             containelPanel.CustomizableEdges = customizableEdges3;
-            containelPanel.Location = new Point(92, 116);
-            containelPanel.Margin = new Padding(3, 2, 3, 2);
+            containelPanel.Location = new Point(105, 155);
             containelPanel.Name = "containelPanel";
             containelPanel.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            containelPanel.Size = new Size(891, 286);
+            containelPanel.Size = new Size(1018, 381);
             containelPanel.TabIndex = 23;
             // 
             // tbTenLopHP
@@ -75,47 +74,48 @@
             tbTenLopHP.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             tbTenLopHP.Dock = DockStyle.Left;
             tbTenLopHP.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbTenLopHP.Font = new Font("Segoe UI", 9F);
+            tbTenLopHP.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            tbTenLopHP.ForeColor = Color.FromArgb(64, 64, 128);
             tbTenLopHP.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             tbTenLopHP.Location = new Point(0, 0);
+            tbTenLopHP.Margin = new Padding(6, 9, 6, 9);
             tbTenLopHP.Name = "tbTenLopHP";
             tbTenLopHP.PasswordChar = '\0';
             tbTenLopHP.PlaceholderText = "";
             tbTenLopHP.SelectedText = "";
             tbTenLopHP.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            tbTenLopHP.Size = new Size(250, 61);
+            tbTenLopHP.Size = new Size(572, 81);
             tbTenLopHP.TabIndex = 2;
             tbTenLopHP.TextChanged += tbTenLopHP_TextChanged;
             // 
             // flpDanhSachBaiThi
             // 
             flpDanhSachBaiThi.Dock = DockStyle.Bottom;
-            flpDanhSachBaiThi.Location = new Point(0, 61);
-            flpDanhSachBaiThi.Margin = new Padding(3, 2, 3, 2);
+            flpDanhSachBaiThi.Location = new Point(0, 81);
             flpDanhSachBaiThi.Name = "flpDanhSachBaiThi";
-            flpDanhSachBaiThi.Size = new Size(891, 225);
+            flpDanhSachBaiThi.Size = new Size(1018, 300);
             flpDanhSachBaiThi.TabIndex = 1;
             // 
             // guna2HtmlLabel1
             // 
             guna2HtmlLabel1.BackColor = Color.Transparent;
-            guna2HtmlLabel1.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            guna2HtmlLabel1.Location = new Point(269, 12);
-            guna2HtmlLabel1.Margin = new Padding(3, 2, 3, 2);
+            guna2HtmlLabel1.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            guna2HtmlLabel1.ForeColor = Color.FromArgb(64, 64, 128);
+            guna2HtmlLabel1.Location = new Point(582, 22);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             guna2HtmlLabel1.Size = new Size(248, 39);
             guna2HtmlLabel1.TabIndex = 0;
             guna2HtmlLabel1.Text = "> Danh sách bài thi";
+            guna2HtmlLabel1.Click += guna2HtmlLabel1_Click;
             // 
             // UcLopHPCuThe
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(containelPanel);
             Controls.Add(label1);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "UcLopHPCuThe";
-            Size = new Size(1050, 510);
+            Size = new Size(1200, 680);
             Load += UcLopHPCuThe_Load;
             containelPanel.ResumeLayout(false);
             containelPanel.PerformLayout();

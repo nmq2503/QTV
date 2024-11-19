@@ -65,6 +65,7 @@
             // lblTenDeThi
             // 
             lblTenDeThi.BackColor = Color.Transparent;
+            lblTenDeThi.ForeColor = Color.FromArgb(64, 64, 64);
             lblTenDeThi.Location = new Point(112, 225);
             lblTenDeThi.Name = "lblTenDeThi";
             lblTenDeThi.Size = new Size(195, 22);
@@ -74,6 +75,7 @@
             // lblMaDeThi
             // 
             lblMaDeThi.BackColor = Color.Transparent;
+            lblMaDeThi.ForeColor = Color.FromArgb(64, 64, 64);
             lblMaDeThi.Location = new Point(112, 187);
             lblMaDeThi.Name = "lblMaDeThi";
             lblMaDeThi.Size = new Size(28, 22);

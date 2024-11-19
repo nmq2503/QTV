@@ -64,7 +64,7 @@
             // txtTimkiem
             // 
             txtTimkiem.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            txtTimkiem.BorderColor = Color.LightGray;
+            txtTimkiem.BorderColor = Color.DarkGray;
             txtTimkiem.BorderRadius = 2;
             txtTimkiem.Cursor = Cursors.IBeam;
             txtTimkiem.CustomizableEdges = customizableEdges1;
@@ -75,17 +75,18 @@
             txtTimkiem.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             txtTimkiem.FocusedState.BorderColor = Color.FromArgb(57, 90, 127);
             txtTimkiem.Font = new Font("Tahoma", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtTimkiem.ForeColor = Color.Gray;
+            txtTimkiem.ForeColor = Color.DimGray;
             txtTimkiem.HoverState.BorderColor = Color.FromArgb(57, 90, 127);
             txtTimkiem.IconRight = (Image)resources.GetObject("txtTimkiem.IconRight");
             txtTimkiem.Location = new Point(98, 54);
             txtTimkiem.Margin = new Padding(4, 3, 4, 3);
             txtTimkiem.Name = "txtTimkiem";
             txtTimkiem.PasswordChar = '\0';
+            txtTimkiem.PlaceholderForeColor = Color.DarkGray;
             txtTimkiem.PlaceholderText = "Nhập từ khóa";
             txtTimkiem.SelectedText = "";
             txtTimkiem.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            txtTimkiem.Size = new Size(508, 45);
+            txtTimkiem.Size = new Size(459, 45);
             txtTimkiem.TabIndex = 0;
             txtTimkiem.TextChanged += txtTimkiem_TextChanged;
             // 
@@ -96,25 +97,26 @@
             guna2ComboBox1.CustomizableEdges = customizableEdges3;
             guna2ComboBox1.DrawMode = DrawMode.OwnerDrawFixed;
             guna2ComboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
-            guna2ComboBox1.FillColor = Color.FromArgb(68, 88, 112);
+            guna2ComboBox1.FillColor = Color.FromArgb(64, 64, 128);
             guna2ComboBox1.FocusedColor = Color.FromArgb(94, 148, 255);
             guna2ComboBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2ComboBox1.Font = new Font("Segoe UI", 10F);
             guna2ComboBox1.ForeColor = Color.White;
             guna2ComboBox1.ItemHeight = 40;
-            guna2ComboBox1.Location = new Point(1264, 63);
+            guna2ComboBox1.Location = new Point(1445, 54);
             guna2ComboBox1.Name = "guna2ComboBox1";
             guna2ComboBox1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2ComboBox1.Size = new Size(176, 46);
+            guna2ComboBox1.Size = new Size(192, 46);
             guna2ComboBox1.TabIndex = 28;
+            guna2ComboBox1.SelectedIndexChanged += guna2ComboBox1_SelectedIndexChanged_1;
             // 
             // guna2HtmlLabel1
             // 
             guna2HtmlLabel1.AutoSize = false;
-            guna2HtmlLabel1.BackColor = Color.FromArgb(68, 88, 112);
+            guna2HtmlLabel1.BackColor = Color.FromArgb(64, 64, 128);
             guna2HtmlLabel1.Font = new Font("Tahoma", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel1.ForeColor = Color.White;
-            guna2HtmlLabel1.Location = new Point(1307, 77);
+            guna2HtmlLabel1.Location = new Point(1493, 65);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             guna2HtmlLabel1.Size = new Size(112, 29);
             guna2HtmlLabel1.TabIndex = 29;
@@ -127,7 +129,7 @@
             guna2PictureBox1.FillColor = Color.Transparent;
             guna2PictureBox1.Image = (Image)resources.GetObject("guna2PictureBox1.Image");
             guna2PictureBox1.ImageRotate = 0F;
-            guna2PictureBox1.Location = new Point(1272, 77);
+            guna2PictureBox1.Location = new Point(1459, 68);
             guna2PictureBox1.Name = "guna2PictureBox1";
             guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2PictureBox1.Size = new Size(25, 22);
@@ -144,7 +146,7 @@
             guna2Panel1.Controls.Add(flpBaiThiSapDienRaMain);
             guna2Panel1.Controls.Add(flpBaiThiSapDienRa);
             guna2Panel1.CustomizableEdges = customizableEdges9;
-            guna2Panel1.Location = new Point(98, 151);
+            guna2Panel1.Location = new Point(98, 135);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges10;
             guna2Panel1.Size = new Size(1342, 342);
@@ -160,15 +162,17 @@
             txtBtnListBaiThiSapDienRa.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             txtBtnListBaiThiSapDienRa.Dock = DockStyle.Left;
             txtBtnListBaiThiSapDienRa.FillColor = Color.Transparent;
-            txtBtnListBaiThiSapDienRa.Font = new Font("Segoe UI", 18F);
-            txtBtnListBaiThiSapDienRa.ForeColor = Color.Black;
+            txtBtnListBaiThiSapDienRa.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtBtnListBaiThiSapDienRa.ForeColor = Color.FromArgb(64, 64, 128);
+            txtBtnListBaiThiSapDienRa.HoverState.FillColor = Color.Transparent;
+            txtBtnListBaiThiSapDienRa.HoverState.ForeColor = Color.FromArgb(44, 44, 88);
             txtBtnListBaiThiSapDienRa.Location = new Point(0, 0);
             txtBtnListBaiThiSapDienRa.Margin = new Padding(3, 3, 3, 25);
             txtBtnListBaiThiSapDienRa.Name = "txtBtnListBaiThiSapDienRa";
             txtBtnListBaiThiSapDienRa.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            txtBtnListBaiThiSapDienRa.Size = new Size(389, 57);
+            txtBtnListBaiThiSapDienRa.Size = new Size(342, 57);
             txtBtnListBaiThiSapDienRa.TabIndex = 2;
-            txtBtnListBaiThiSapDienRa.Text = "Danh sách bài thi sắp diễn ra >";
+            txtBtnListBaiThiSapDienRa.Text = "Bài thi sắp diễn ra >";
             txtBtnListBaiThiSapDienRa.Click += txtBtnListBaiThiSapDienRa_Click;
             // 
             // flpBaiThiSapDienRaMain
@@ -197,7 +201,7 @@
             guna2Panel2.Controls.Add(flpBaiThiDaKetThucMain);
             guna2Panel2.Controls.Add(flowLayoutPanel2);
             guna2Panel2.CustomizableEdges = customizableEdges13;
-            guna2Panel2.Location = new Point(98, 538);
+            guna2Panel2.Location = new Point(98, 503);
             guna2Panel2.Name = "guna2Panel2";
             guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges14;
             guna2Panel2.Size = new Size(1342, 500);
@@ -212,15 +216,17 @@
             txtBtnListBaiThiDaKetThuc.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             txtBtnListBaiThiDaKetThuc.Dock = DockStyle.Left;
             txtBtnListBaiThiDaKetThuc.FillColor = Color.White;
-            txtBtnListBaiThiDaKetThuc.Font = new Font("Segoe UI", 18F);
-            txtBtnListBaiThiDaKetThuc.ForeColor = Color.Black;
+            txtBtnListBaiThiDaKetThuc.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtBtnListBaiThiDaKetThuc.ForeColor = Color.FromArgb(64, 64, 128);
+            txtBtnListBaiThiDaKetThuc.HoverState.FillColor = Color.Transparent;
+            txtBtnListBaiThiDaKetThuc.HoverState.ForeColor = Color.FromArgb(44, 44, 88);
             txtBtnListBaiThiDaKetThuc.Location = new Point(0, 0);
             txtBtnListBaiThiDaKetThuc.Margin = new Padding(3, 3, 3, 25);
             txtBtnListBaiThiDaKetThuc.Name = "txtBtnListBaiThiDaKetThuc";
             txtBtnListBaiThiDaKetThuc.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            txtBtnListBaiThiDaKetThuc.Size = new Size(389, 78);
+            txtBtnListBaiThiDaKetThuc.Size = new Size(350, 78);
             txtBtnListBaiThiDaKetThuc.TabIndex = 2;
-            txtBtnListBaiThiDaKetThuc.Text = "Danh sách bài thi đã kết thúc >";
+            txtBtnListBaiThiDaKetThuc.Text = "Bài thi đã kết thúc >";
             txtBtnListBaiThiDaKetThuc.Click += txtBtnListBaiThiDaKetThuc_Click;
             // 
             // flpBaiThiDaKetThucMain
@@ -246,12 +252,15 @@
             // 
             // button1
             // 
-            button1.Location = new Point(564, 54);
+            button1.BackColor = Color.FromArgb(64, 64, 128);
+            button1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(558, 49);
             button1.Name = "button1";
-            button1.Size = new Size(42, 45);
+            button1.Size = new Size(113, 51);
             button1.TabIndex = 33;
-            button1.Text = "Tim";
-            button1.UseVisualStyleBackColor = true;
+            button1.Text = "Tìm kiếm";
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // TCC_Baithi
@@ -269,7 +278,7 @@
             Controls.Add(txtTimkiem);
             Location = new Point(0, -60);
             Name = "TCC_Baithi";
-            Size = new Size(1621, 1038);
+            Size = new Size(1495, 912);
             Load += TCC_Baithi_Load;
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             guna2Panel1.ResumeLayout(false);

@@ -507,7 +507,7 @@
             cbChonChuong.Margin = new Padding(2, 3, 2, 3);
             cbChonChuong.Name = "cbChonChuong";
             cbChonChuong.ShadowDecoration.CustomizableEdges = customizableEdges34;
-            cbChonChuong.Size = new Size(404, 29);
+            cbChonChuong.Size = new Size(211, 29);
             cbChonChuong.TabIndex = 6;
             cbChonChuong.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             cbChonChuong.SelectedIndexChanged += cbChonChuong_SelectedIndexChanged;

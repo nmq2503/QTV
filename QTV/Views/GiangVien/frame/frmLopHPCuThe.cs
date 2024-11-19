@@ -130,10 +130,10 @@ namespace QTV.Views.GiangVien
         private void btnSuaBaiThi_Click(object sender, EventArgs e)
         {
             bool editMode = true;
-            if (_baiThiDangDuocChon != null )
+            if (_baiThiDangDuocChon != null)
             {
                 QuizController quizController = new QuizController();
-                
+
                 var baiThiDangDuocChon = _baiThiDangDuocChon.BaiThi;
                 DataTable dt = quizController.GetQuizByMaBaiThi(baiThiDangDuocChon.MaBaiThi);
 
@@ -173,10 +173,11 @@ namespace QTV.Views.GiangVien
                 {
                     MessageBox.Show("Không tìm thấy bài thi.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
-            } else
+            }
+            else
             {
                 MessageBox.Show("Vui lòng chọn một bài thi để sửa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }     
+            }
         }
 
         private void btnCapNhatDuLieu_Click(object sender, EventArgs e)
@@ -212,6 +213,11 @@ namespace QTV.Views.GiangVien
             {
                 MessageBox.Show("Vui lòng chọn một bài thi để xóa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void tbTenLopHPCuThe_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

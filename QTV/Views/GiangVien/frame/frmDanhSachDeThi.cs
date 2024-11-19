@@ -170,6 +170,11 @@ namespace QTV.Views.GiangVien
                 MessageBox.Show("Vui lòng chọn một đề thi để xóa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void containerPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 
 

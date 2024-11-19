@@ -32,6 +32,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -42,10 +44,9 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             mainPanel = new Guna.UI2.WinForms.Guna2Panel();
             containerPanel = new Guna.UI2.WinForms.Guna2Panel();
+            btnXoaBaiThi = new Guna.UI2.WinForms.Guna2Button();
             btnSuaBaiThi = new Guna.UI2.WinForms.Guna2Button();
             btnCapNhatDuLieu = new Guna.UI2.WinForms.Guna2Button();
             gbDanhSachBaiThi = new Guna.UI2.WinForms.Guna2GroupBox();
@@ -53,7 +54,6 @@
             btnThemBaiThi = new Guna.UI2.WinForms.Guna2Button();
             tbTenLopHPCuThe = new Guna.UI2.WinForms.Guna2TextBox();
             Label = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            btnXoaBaiThi = new Guna.UI2.WinForms.Guna2Button();
             mainPanel.SuspendLayout();
             containerPanel.SuspendLayout();
             gbDanhSachBaiThi.SuspendLayout();
@@ -66,9 +66,10 @@
             mainPanel.CustomizableEdges = customizableEdges15;
             mainPanel.Dock = DockStyle.Fill;
             mainPanel.Location = new Point(0, 0);
+            mainPanel.Margin = new Padding(3, 4, 3, 4);
             mainPanel.Name = "mainPanel";
             mainPanel.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            mainPanel.Size = new Size(1384, 693);
+            mainPanel.Size = new Size(1582, 924);
             mainPanel.TabIndex = 0;
             // 
             // containerPanel
@@ -85,14 +86,36 @@
             containerPanel.Controls.Add(Label);
             containerPanel.CustomBorderThickness = new Padding(2);
             containerPanel.CustomizableEdges = customizableEdges13;
-            containerPanel.Location = new Point(184, 54);
+            containerPanel.Location = new Point(9, 72);
             containerPanel.Margin = new Padding(0);
             containerPanel.Name = "containerPanel";
-            containerPanel.Padding = new Padding(20, 30, 20, 30);
+            containerPanel.Padding = new Padding(23, 40, 23, 40);
             containerPanel.ShadowDecoration.BorderRadius = 12;
             containerPanel.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            containerPanel.Size = new Size(1032, 600);
+            containerPanel.Size = new Size(1564, 800);
             containerPanel.TabIndex = 0;
+            // 
+            // btnXoaBaiThi
+            // 
+            btnXoaBaiThi.BorderRadius = 4;
+            btnXoaBaiThi.CustomizableEdges = customizableEdges1;
+            btnXoaBaiThi.DisabledState.BorderColor = Color.DarkGray;
+            btnXoaBaiThi.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnXoaBaiThi.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnXoaBaiThi.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnXoaBaiThi.FillColor = Color.FromArgb(64, 64, 128);
+            btnXoaBaiThi.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnXoaBaiThi.ForeColor = Color.White;
+            btnXoaBaiThi.Image = Properties.Resources.trash__2_1;
+            btnXoaBaiThi.ImageSize = new Size(15, 15);
+            btnXoaBaiThi.Location = new Point(831, 191);
+            btnXoaBaiThi.Margin = new Padding(34, 60, 34, 60);
+            btnXoaBaiThi.Name = "btnXoaBaiThi";
+            btnXoaBaiThi.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btnXoaBaiThi.Size = new Size(153, 49);
+            btnXoaBaiThi.TabIndex = 30;
+            btnXoaBaiThi.Text = " Xóa bài thi";
+            btnXoaBaiThi.Click += btnXoaBaiThi_Click;
             // 
             // btnSuaBaiThi
             // 
@@ -102,16 +125,16 @@
             btnSuaBaiThi.DisabledState.CustomBorderColor = Color.DarkGray;
             btnSuaBaiThi.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnSuaBaiThi.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnSuaBaiThi.FillColor = Color.FromArgb(255, 128, 0);
+            btnSuaBaiThi.FillColor = Color.FromArgb(64, 64, 128);
             btnSuaBaiThi.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnSuaBaiThi.ForeColor = Color.White;
             btnSuaBaiThi.Image = Properties.Resources.file_edit__1_;
             btnSuaBaiThi.ImageSize = new Size(15, 15);
-            btnSuaBaiThi.Location = new Point(380, 143);
-            btnSuaBaiThi.Margin = new Padding(30, 45, 30, 45);
+            btnSuaBaiThi.Location = new Point(581, 191);
+            btnSuaBaiThi.Margin = new Padding(34, 60, 34, 60);
             btnSuaBaiThi.Name = "btnSuaBaiThi";
             btnSuaBaiThi.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            btnSuaBaiThi.Size = new Size(134, 37);
+            btnSuaBaiThi.Size = new Size(153, 49);
             btnSuaBaiThi.TabIndex = 28;
             btnSuaBaiThi.Text = " Sửa bài thi";
             btnSuaBaiThi.Click += btnSuaBaiThi_Click;
@@ -124,16 +147,16 @@
             btnCapNhatDuLieu.DisabledState.CustomBorderColor = Color.DarkGray;
             btnCapNhatDuLieu.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnCapNhatDuLieu.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnCapNhatDuLieu.FillColor = Color.FromArgb(57, 90, 127);
+            btnCapNhatDuLieu.FillColor = Color.FromArgb(64, 64, 128);
             btnCapNhatDuLieu.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnCapNhatDuLieu.ForeColor = Color.White;
             btnCapNhatDuLieu.Image = Properties.Resources.upload__1_;
             btnCapNhatDuLieu.ImageSize = new Size(12, 12);
-            btnCapNhatDuLieu.Location = new Point(768, 143);
-            btnCapNhatDuLieu.Margin = new Padding(30, 45, 30, 45);
+            btnCapNhatDuLieu.Location = new Point(1081, 191);
+            btnCapNhatDuLieu.Margin = new Padding(34, 60, 34, 60);
             btnCapNhatDuLieu.Name = "btnCapNhatDuLieu";
             btnCapNhatDuLieu.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            btnCapNhatDuLieu.Size = new Size(134, 37);
+            btnCapNhatDuLieu.Size = new Size(153, 49);
             btnCapNhatDuLieu.TabIndex = 26;
             btnCapNhatDuLieu.Text = "Cập nhật dữ liệu";
             btnCapNhatDuLieu.Click += btnCapNhatDuLieu_Click;
@@ -145,21 +168,23 @@
             gbDanhSachBaiThi.CustomizableEdges = customizableEdges7;
             gbDanhSachBaiThi.Font = new Font("Segoe UI", 9F);
             gbDanhSachBaiThi.ForeColor = Color.FromArgb(125, 137, 149);
-            gbDanhSachBaiThi.Location = new Point(23, 228);
+            gbDanhSachBaiThi.Location = new Point(37, 304);
+            gbDanhSachBaiThi.Margin = new Padding(3, 4, 3, 4);
             gbDanhSachBaiThi.Name = "gbDanhSachBaiThi";
-            gbDanhSachBaiThi.Padding = new Padding(10, 10, 10, 10);
+            gbDanhSachBaiThi.Padding = new Padding(11, 13, 11, 13);
             gbDanhSachBaiThi.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            gbDanhSachBaiThi.Size = new Size(987, 339);
+            gbDanhSachBaiThi.Size = new Size(1490, 452);
             gbDanhSachBaiThi.TabIndex = 2;
             // 
             // flpDanhSachBaiThi
             // 
             flpDanhSachBaiThi.AutoScroll = true;
             flpDanhSachBaiThi.Dock = DockStyle.Fill;
-            flpDanhSachBaiThi.Location = new Point(10, 10);
+            flpDanhSachBaiThi.Location = new Point(11, 13);
+            flpDanhSachBaiThi.Margin = new Padding(3, 4, 3, 4);
             flpDanhSachBaiThi.Name = "flpDanhSachBaiThi";
-            flpDanhSachBaiThi.Padding = new Padding(9, 0, 0, 0);
-            flpDanhSachBaiThi.Size = new Size(967, 319);
+            flpDanhSachBaiThi.Padding = new Padding(10, 0, 0, 0);
+            flpDanhSachBaiThi.Size = new Size(1468, 426);
             flpDanhSachBaiThi.TabIndex = 0;
             // 
             // btnThemBaiThi
@@ -170,16 +195,16 @@
             btnThemBaiThi.DisabledState.CustomBorderColor = Color.DarkGray;
             btnThemBaiThi.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnThemBaiThi.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnThemBaiThi.FillColor = Color.Green;
+            btnThemBaiThi.FillColor = Color.FromArgb(64, 64, 128);
             btnThemBaiThi.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnThemBaiThi.ForeColor = Color.White;
             btnThemBaiThi.Image = Properties.Resources.plus__2_2;
             btnThemBaiThi.ImageSize = new Size(15, 15);
-            btnThemBaiThi.Location = new Point(186, 143);
-            btnThemBaiThi.Margin = new Padding(30, 45, 30, 45);
+            btnThemBaiThi.Location = new Point(331, 191);
+            btnThemBaiThi.Margin = new Padding(34, 60, 34, 60);
             btnThemBaiThi.Name = "btnThemBaiThi";
             btnThemBaiThi.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            btnThemBaiThi.Size = new Size(134, 37);
+            btnThemBaiThi.Size = new Size(153, 49);
             btnThemBaiThi.TabIndex = 27;
             btnThemBaiThi.Text = " Thêm bài thi";
             btnThemBaiThi.Click += btnThemBaiThi_Click;
@@ -197,57 +222,39 @@
             tbTenLopHPCuThe.Enabled = false;
             tbTenLopHPCuThe.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             tbTenLopHPCuThe.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            tbTenLopHPCuThe.ForeColor = Color.FromArgb(64, 64, 64);
+            tbTenLopHPCuThe.ForeColor = Color.FromArgb(64, 64, 128);
             tbTenLopHPCuThe.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbTenLopHPCuThe.Location = new Point(23, 34);
-            tbTenLopHPCuThe.Margin = new Padding(4, 4, 4, 4);
+            tbTenLopHPCuThe.Location = new Point(26, 52);
+            tbTenLopHPCuThe.Margin = new Padding(5);
             tbTenLopHPCuThe.Name = "tbTenLopHPCuThe";
             tbTenLopHPCuThe.PasswordChar = '\0';
             tbTenLopHPCuThe.PlaceholderText = "";
             tbTenLopHPCuThe.ReadOnly = true;
             tbTenLopHPCuThe.SelectedText = "";
             tbTenLopHPCuThe.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            tbTenLopHPCuThe.Size = new Size(239, 34);
+            tbTenLopHPCuThe.Size = new Size(273, 45);
             tbTenLopHPCuThe.TabIndex = 1;
+            tbTenLopHPCuThe.TextChanged += tbTenLopHPCuThe_TextChanged;
             // 
             // Label
             // 
             Label.BackColor = Color.Transparent;
-            Label.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            Label.ForeColor = Color.DimGray;
-            Label.Location = new Point(269, 39);
+            Label.Font = new Font("Segoe UI Semibold", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Label.ForeColor = Color.FromArgb(64, 64, 128);
+            Label.Location = new Point(307, 52);
+            Label.Margin = new Padding(3, 4, 3, 4);
             Label.Name = "Label";
-            Label.Size = new Size(150, 23);
+            Label.Size = new Size(240, 39);
             Label.TabIndex = 0;
             Label.Text = "> Danh sách bài thi";
             // 
-            // btnXoaBaiThi
-            // 
-            btnXoaBaiThi.BorderRadius = 4;
-            btnXoaBaiThi.CustomizableEdges = customizableEdges1;
-            btnXoaBaiThi.DisabledState.BorderColor = Color.DarkGray;
-            btnXoaBaiThi.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnXoaBaiThi.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnXoaBaiThi.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnXoaBaiThi.FillColor = Color.FromArgb(192, 0, 0);
-            btnXoaBaiThi.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnXoaBaiThi.ForeColor = Color.White;
-            btnXoaBaiThi.ImageSize = new Size(15, 15);
-            btnXoaBaiThi.Location = new Point(574, 143);
-            btnXoaBaiThi.Margin = new Padding(30, 45, 30, 45);
-            btnXoaBaiThi.Name = "btnXoaBaiThi";
-            btnXoaBaiThi.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            btnXoaBaiThi.Size = new Size(134, 37);
-            btnXoaBaiThi.TabIndex = 30;
-            btnXoaBaiThi.Text = "Xóa bài thi";
-            btnXoaBaiThi.Click += btnXoaBaiThi_Click;
-            // 
             // frmLopHPCuThe
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1384, 693);
+            ClientSize = new Size(1582, 924);
             Controls.Add(mainPanel);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "frmLopHPCuThe";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Lớp học phần cụ thể";

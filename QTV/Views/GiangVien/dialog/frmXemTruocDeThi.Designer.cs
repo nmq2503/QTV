@@ -326,11 +326,11 @@
             tbTenDeThi.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             tbTenDeThi.Enabled = false;
             tbTenDeThi.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbTenDeThi.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            tbTenDeThi.ForeColor = Color.Black;
+            tbTenDeThi.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            tbTenDeThi.ForeColor = Color.FromArgb(64, 64, 64);
             tbTenDeThi.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbTenDeThi.Location = new Point(39, 36);
-            tbTenDeThi.Margin = new Padding(5, 9, 5, 9);
+            tbTenDeThi.Location = new Point(17, 22);
+            tbTenDeThi.Margin = new Padding(8, 13, 8, 13);
             tbTenDeThi.MaxLength = 100;
             tbTenDeThi.Name = "tbTenDeThi";
             tbTenDeThi.PasswordChar = '\0';
@@ -339,7 +339,7 @@
             tbTenDeThi.ReadOnly = true;
             tbTenDeThi.SelectedText = "";
             tbTenDeThi.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            tbTenDeThi.Size = new Size(713, 107);
+            tbTenDeThi.Size = new Size(757, 153);
             tbTenDeThi.TabIndex = 2;
             // 
             // frmXemTruocDeThi

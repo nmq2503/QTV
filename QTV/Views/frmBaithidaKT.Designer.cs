@@ -276,6 +276,7 @@
             // 
             // guna2TextBox3
             // 
+            guna2TextBox3.BorderThickness = 0;
             guna2TextBox3.Cursor = Cursors.IBeam;
             guna2TextBox3.CustomizableEdges = customizableEdges2;
             guna2TextBox3.DefaultText = "";
@@ -285,6 +286,7 @@
             guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox3.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            guna2TextBox3.ForeColor = Color.FromArgb(64, 64, 64);
             guna2TextBox3.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox3.Location = new Point(11, 204);
             guna2TextBox3.Margin = new Padding(4);
@@ -298,6 +300,7 @@
             // 
             // guna2TextBox12
             // 
+            guna2TextBox12.BorderThickness = 0;
             guna2TextBox12.Cursor = Cursors.IBeam;
             guna2TextBox12.CustomizableEdges = customizableEdges4;
             guna2TextBox12.DefaultText = "";
@@ -320,6 +323,7 @@
             // 
             // guna2TextBox11
             // 
+            guna2TextBox11.BorderThickness = 0;
             guna2TextBox11.Cursor = Cursors.IBeam;
             guna2TextBox11.CustomizableEdges = customizableEdges6;
             guna2TextBox11.DefaultText = "";
@@ -436,6 +440,7 @@
             // 
             // guna2TextBox4
             // 
+            guna2TextBox4.BorderThickness = 0;
             guna2TextBox4.Cursor = Cursors.IBeam;
             guna2TextBox4.CustomizableEdges = customizableEdges16;
             guna2TextBox4.DefaultText = "";
@@ -445,6 +450,7 @@
             guna2TextBox4.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox4.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            guna2TextBox4.ForeColor = Color.FromArgb(64, 64, 64);
             guna2TextBox4.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox4.Location = new Point(11, 204);
             guna2TextBox4.Margin = new Padding(4);
@@ -458,6 +464,7 @@
             // 
             // guna2TextBox5
             // 
+            guna2TextBox5.BorderThickness = 0;
             guna2TextBox5.Cursor = Cursors.IBeam;
             guna2TextBox5.CustomizableEdges = customizableEdges18;
             guna2TextBox5.DefaultText = "";
@@ -480,6 +487,7 @@
             // 
             // guna2TextBox6
             // 
+            guna2TextBox6.BorderThickness = 0;
             guna2TextBox6.Cursor = Cursors.IBeam;
             guna2TextBox6.CustomizableEdges = customizableEdges20;
             guna2TextBox6.DefaultText = "";
@@ -596,6 +604,7 @@
             // 
             // guna2TextBox9
             // 
+            guna2TextBox9.BorderThickness = 0;
             guna2TextBox9.Cursor = Cursors.IBeam;
             guna2TextBox9.CustomizableEdges = customizableEdges30;
             guna2TextBox9.DefaultText = "";
@@ -605,6 +614,7 @@
             guna2TextBox9.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             guna2TextBox9.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox9.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            guna2TextBox9.ForeColor = Color.FromArgb(64, 64, 64);
             guna2TextBox9.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox9.Location = new Point(11, 204);
             guna2TextBox9.Margin = new Padding(4);
@@ -618,6 +628,7 @@
             // 
             // guna2TextBox10
             // 
+            guna2TextBox10.BorderThickness = 0;
             guna2TextBox10.Cursor = Cursors.IBeam;
             guna2TextBox10.CustomizableEdges = customizableEdges32;
             guna2TextBox10.DefaultText = "";
@@ -640,6 +651,7 @@
             // 
             // guna2TextBox13
             // 
+            guna2TextBox13.BorderThickness = 0;
             guna2TextBox13.Cursor = Cursors.IBeam;
             guna2TextBox13.CustomizableEdges = customizableEdges34;
             guna2TextBox13.DefaultText = "";
@@ -755,6 +767,7 @@
             // 
             // guna2TextBox16
             // 
+            guna2TextBox16.BorderThickness = 0;
             guna2TextBox16.Cursor = Cursors.IBeam;
             guna2TextBox16.CustomizableEdges = customizableEdges44;
             guna2TextBox16.DefaultText = "";
@@ -764,6 +777,7 @@
             guna2TextBox16.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             guna2TextBox16.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox16.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            guna2TextBox16.ForeColor = Color.FromArgb(64, 64, 64);
             guna2TextBox16.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox16.Location = new Point(11, 204);
             guna2TextBox16.Margin = new Padding(4);
@@ -777,6 +791,7 @@
             // 
             // guna2TextBox17
             // 
+            guna2TextBox17.BorderThickness = 0;
             guna2TextBox17.Cursor = Cursors.IBeam;
             guna2TextBox17.CustomizableEdges = customizableEdges46;
             guna2TextBox17.DefaultText = "";
@@ -799,6 +814,7 @@
             // 
             // guna2TextBox18
             // 
+            guna2TextBox18.BorderThickness = 0;
             guna2TextBox18.Cursor = Cursors.IBeam;
             guna2TextBox18.CustomizableEdges = customizableEdges48;
             guna2TextBox18.DefaultText = "";
@@ -914,6 +930,7 @@
             // 
             // guna2TextBox21
             // 
+            guna2TextBox21.BorderThickness = 0;
             guna2TextBox21.Cursor = Cursors.IBeam;
             guna2TextBox21.CustomizableEdges = customizableEdges58;
             guna2TextBox21.DefaultText = "";
@@ -923,6 +940,7 @@
             guna2TextBox21.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             guna2TextBox21.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox21.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            guna2TextBox21.ForeColor = Color.FromArgb(64, 64, 64);
             guna2TextBox21.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox21.Location = new Point(11, 204);
             guna2TextBox21.Margin = new Padding(4);
@@ -936,6 +954,7 @@
             // 
             // guna2TextBox22
             // 
+            guna2TextBox22.BorderThickness = 0;
             guna2TextBox22.Cursor = Cursors.IBeam;
             guna2TextBox22.CustomizableEdges = customizableEdges60;
             guna2TextBox22.DefaultText = "";
@@ -958,6 +977,7 @@
             // 
             // guna2TextBox23
             // 
+            guna2TextBox23.BorderThickness = 0;
             guna2TextBox23.Cursor = Cursors.IBeam;
             guna2TextBox23.CustomizableEdges = customizableEdges62;
             guna2TextBox23.DefaultText = "";
@@ -1073,6 +1093,7 @@
             // 
             // guna2TextBox26
             // 
+            guna2TextBox26.BorderThickness = 0;
             guna2TextBox26.Cursor = Cursors.IBeam;
             guna2TextBox26.CustomizableEdges = customizableEdges72;
             guna2TextBox26.DefaultText = "";
@@ -1082,6 +1103,7 @@
             guna2TextBox26.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             guna2TextBox26.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox26.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            guna2TextBox26.ForeColor = Color.FromArgb(64, 64, 64);
             guna2TextBox26.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox26.Location = new Point(11, 204);
             guna2TextBox26.Margin = new Padding(4);
@@ -1095,6 +1117,7 @@
             // 
             // guna2TextBox27
             // 
+            guna2TextBox27.BorderThickness = 0;
             guna2TextBox27.Cursor = Cursors.IBeam;
             guna2TextBox27.CustomizableEdges = customizableEdges74;
             guna2TextBox27.DefaultText = "";
@@ -1117,6 +1140,7 @@
             // 
             // guna2TextBox28
             // 
+            guna2TextBox28.BorderThickness = 0;
             guna2TextBox28.Cursor = Cursors.IBeam;
             guna2TextBox28.CustomizableEdges = customizableEdges76;
             guna2TextBox28.DefaultText = "";
@@ -1231,6 +1255,7 @@
             // 
             // guna2TextBox31
             // 
+            guna2TextBox31.BorderThickness = 0;
             guna2TextBox31.Cursor = Cursors.IBeam;
             guna2TextBox31.CustomizableEdges = customizableEdges86;
             guna2TextBox31.DefaultText = "";
@@ -1240,6 +1265,7 @@
             guna2TextBox31.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             guna2TextBox31.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox31.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            guna2TextBox31.ForeColor = Color.FromArgb(64, 64, 64);
             guna2TextBox31.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox31.Location = new Point(11, 204);
             guna2TextBox31.Margin = new Padding(4);
@@ -1253,6 +1279,7 @@
             // 
             // guna2TextBox32
             // 
+            guna2TextBox32.BorderThickness = 0;
             guna2TextBox32.Cursor = Cursors.IBeam;
             guna2TextBox32.CustomizableEdges = customizableEdges88;
             guna2TextBox32.DefaultText = "";
@@ -1275,6 +1302,7 @@
             // 
             // guna2TextBox33
             // 
+            guna2TextBox33.BorderThickness = 0;
             guna2TextBox33.Cursor = Cursors.IBeam;
             guna2TextBox33.CustomizableEdges = customizableEdges90;
             guna2TextBox33.DefaultText = "";
@@ -1390,6 +1418,7 @@
             // 
             // guna2TextBox36
             // 
+            guna2TextBox36.BorderThickness = 0;
             guna2TextBox36.Cursor = Cursors.IBeam;
             guna2TextBox36.CustomizableEdges = customizableEdges100;
             guna2TextBox36.DefaultText = "";
@@ -1399,6 +1428,7 @@
             guna2TextBox36.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             guna2TextBox36.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox36.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            guna2TextBox36.ForeColor = Color.FromArgb(64, 64, 64);
             guna2TextBox36.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox36.Location = new Point(11, 204);
             guna2TextBox36.Margin = new Padding(4);
@@ -1412,6 +1442,7 @@
             // 
             // guna2TextBox37
             // 
+            guna2TextBox37.BorderThickness = 0;
             guna2TextBox37.Cursor = Cursors.IBeam;
             guna2TextBox37.CustomizableEdges = customizableEdges102;
             guna2TextBox37.DefaultText = "";
@@ -1434,6 +1465,7 @@
             // 
             // guna2TextBox38
             // 
+            guna2TextBox38.BorderThickness = 0;
             guna2TextBox38.Cursor = Cursors.IBeam;
             guna2TextBox38.CustomizableEdges = customizableEdges104;
             guna2TextBox38.DefaultText = "";
@@ -1533,8 +1565,8 @@
             guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             guna2Button2.FillColor = Color.White;
-            guna2Button2.Font = new Font("Segoe UI Semibold", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button2.ForeColor = Color.FromArgb(64, 64, 64);
+            guna2Button2.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            guna2Button2.ForeColor = Color.FromArgb(64, 64, 128);
             guna2Button2.ImageAlign = HorizontalAlignment.Right;
             guna2Button2.ImageOffset = new Point(20, 3);
             guna2Button2.Location = new Point(-16, 165);
